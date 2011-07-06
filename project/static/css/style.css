@@ -1,0 +1,12 @@
+html,
+body {
+    min-height: 100%;
+}
+
+div {
+    display: block;
+}
+
+a {
+    text-decoration: none;
+}
