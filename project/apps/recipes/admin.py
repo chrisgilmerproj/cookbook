@@ -13,6 +13,7 @@ admin.site.register(Item, ItemAdmin)
 
 class RecipeAdmin(admin.ModelAdmin):
     inlines = [IngredientInline,]
+    list_display = ['name','time','serves','source',]
 
 admin.site.register(Recipe, RecipeAdmin)
 

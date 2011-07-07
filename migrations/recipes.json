@@ -1,0 +1,161 @@
+[
+    {
+        "pk": 1, 
+        "model": "recipes.measurement", 
+        "fields": {
+            "name": "Tbs."
+        }
+    }, 
+    {
+        "pk": 2, 
+        "model": "recipes.measurement", 
+        "fields": {
+            "name": "tsp."
+        }
+    }, 
+    {
+        "pk": 3, 
+        "model": "recipes.measurement", 
+        "fields": {
+            "name": "lb."
+        }
+    }, 
+    {
+        "pk": 1, 
+        "model": "recipes.item", 
+        "fields": {
+            "name": "lemon zest"
+        }
+    }, 
+    {
+        "pk": 2, 
+        "model": "recipes.item", 
+        "fields": {
+            "name": "fresh thyme"
+        }
+    }, 
+    {
+        "pk": 3, 
+        "model": "recipes.item", 
+        "fields": {
+            "name": "granulated sugar"
+        }
+    }, 
+    {
+        "pk": 4, 
+        "model": "recipes.item", 
+        "fields": {
+            "name": "salmon fillet"
+        }
+    }, 
+    {
+        "pk": 5, 
+        "model": "recipes.item", 
+        "fields": {
+            "name": "extra-virgin olive oil"
+        }
+    }, 
+    {
+        "pk": 6, 
+        "model": "recipes.item", 
+        "fields": {
+            "name": "kosher salt"
+        }
+    }, 
+    {
+        "pk": 7, 
+        "model": "recipes.item", 
+        "fields": {
+            "name": "black pepper"
+        }
+    }, 
+    {
+        "pk": 1, 
+        "model": "recipes.recipe", 
+        "fields": {
+            "name": "Cedar-Planked Lemon-Pepper Salmon", 
+            "serves": 4, 
+            "source": "Fine Cooking, June/July 2011, Page 57", 
+            "time": "", 
+            "slug": "cedar-planked-lemon-pepper-salmon", 
+            "instructions": "Equipment: \r\n2 15x7-inch untreated cedar planks\r\n\r\nSoak the cedar planks in water to cover for at least 1 hour. Drain the planks.\r\n\r\nPrepare the salmon\r\nIn a small bowl, combine the lemon zest, thyme, sugar, salt, and pepper.  Rub the mixture together with your fingers until the zest is distributed throughout. Rub the salmon fillets on both sides with the olive oil and then set each fillet skin side down on a plank.  Sprinkle the fillets with the lemon-pepper mixture, dividing it evenly.  Gently rub the seasoning into the fillets.  Let stand at room temperature while the grill heats.\r\n\r\nCook the salmon\r\nPrepare a gas or charcoal grill fire for indirect cooking with high heat: On a gas grill, heat all burners on high, then turn off all but one burner just before cooking the salmon; on a charcoal grill, bank the coals to two opposite sides of the grill.  Arrange the planks over the cooler part of the grill, positioning them so that the thickest part of the fish is closes to the heat source.  Cover the grill and cook until the thickest part of each fillet registers about 135def F on an instant-read thermometer, 20-35 minutes depending on the thickness of the fillets.  The planks may smoke a bit (this is fine) and will become very aromatic.  Let the fillets rest on the planks for 5 to 10 minutes before serving.\r\n\r\nCut the salmon fillets crosswise into serving portions and transfer to individual plates. Serve with horseradish-chive sauce.\r\n\r\nCool any leftover salmon completely, wrap well, and refrigerate for up to 3 days.\r\n\r\n\r\n"
+        }
+    }, 
+    {
+        "pk": 1, 
+        "model": "recipes.ingredient", 
+        "fields": {
+            "preparation": "grated, minced", 
+            "item": 1, 
+            "amount": "1", 
+            "recipe": 1, 
+            "measurement": 1
+        }
+    }, 
+    {
+        "pk": 2, 
+        "model": "recipes.ingredient", 
+        "fields": {
+            "preparation": "chopped", 
+            "item": 2, 
+            "amount": "1-1/2", 
+            "recipe": 1, 
+            "measurement": 2
+        }
+    }, 
+    {
+        "pk": 3, 
+        "model": "recipes.ingredient", 
+        "fields": {
+            "preparation": "", 
+            "item": 3, 
+            "amount": "1/2", 
+            "recipe": 1, 
+            "measurement": 2
+        }
+    }, 
+    {
+        "pk": 4, 
+        "model": "recipes.ingredient", 
+        "fields": {
+            "preparation": "boneless, skin-on, pin bones removed", 
+            "item": 4, 
+            "amount": "4", 
+            "recipe": 1, 
+            "measurement": 3
+        }
+    }, 
+    {
+        "pk": 5, 
+        "model": "recipes.ingredient", 
+        "fields": {
+            "preparation": "", 
+            "item": 5, 
+            "amount": "2", 
+            "recipe": 1, 
+            "measurement": 1
+        }
+    }, 
+    {
+        "pk": 6, 
+        "model": "recipes.ingredient", 
+        "fields": {
+            "preparation": "", 
+            "item": 6, 
+            "amount": "1-1/2", 
+            "recipe": 1, 
+            "measurement": 2
+        }
+    }, 
+    {
+        "pk": 7, 
+        "model": "recipes.ingredient", 
+        "fields": {
+            "preparation": "freshly ground", 
+            "item": 7, 
+            "amount": "1", 
+            "recipe": 1, 
+            "measurement": 1
+        }
+    }
+]

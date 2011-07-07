@@ -17,6 +17,7 @@ class Recipe(models.Model):
     name = models.CharField(max_length=200, help_text="Name of the recipe")
     slug = models.SlugField(editable=False)
     time = models.CharField(max_length=200, blank=True, help_text="Preparation Time")
+    serves = models.PositiveIntegerField(default=1,help_text="Number of servings")
     source = models.CharField(max_length=200, blank=True, help_text="Source, please include page number")
     instructions = models.TextField(help_text="Instructions for Preparation")
 
@@ -24,10 +25,10 @@ class Recipe(models.Model):
         ordering = ['name']
 
     def __unicode__(self):
-        return "%s (%s)" % (self.name, self.time)
+        return "%s" % (self.name)
 
     def save(self):
-        self.slug = slugify(self.title)
+        self.slug = slugify(self.name)
         super(Recipe, self).save()
 
 class Ingredient(models.Model):
@@ -39,5 +40,5 @@ class Ingredient(models.Model):
     preparation = models.CharField(max_length=200, blank=True, null=True, help_text="Short prep instruction")
 
     def __unicode__(self):
-        return "%s %s %s" % (self.measurement, self.item, self.preparation)
+        return "%s %s %s %s" % (self.amount, self.measurement, self.item, self.preparation)
 

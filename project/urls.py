@@ -10,6 +10,8 @@ urlpatterns = patterns('',
     (r'^admin/doc/', include('django.contrib.admindocs.urls')),
     (r'^admin/', include(admin.site.urls)),
     
+    url(r'^recipes/$', 'recipes.views.recipe_list', name="recipe_list"),
+    url(r'^recipes/(?P<slug>[\w-]+)/$', 'recipes.views.recipe_detail', name="recipe_detail"),
     url(r'^$', TemplateView.as_view(template_name='homepage.html'), name="home"),
 )
 
