@@ -1,0 +1,23 @@
+{% extends "base.html" %}
+
+{% block title %}Recipe Random{% endblock %}
+
+{% block content %}
+
+    <h1>Random Recipe List</h1>
+    <br/>
+
+    <ul>
+    {% for recipe in recipe_list %}
+    <li><a href="{% url recipe_detail recipe.slug %}">{{ recipe }}</a></li>
+    {% endfor %}
+    </ul>
+    <br/>
+
+    <ul>
+    {% for ingredient in ingredient_list %}
+    <li>{{ ingredient }}</li>
+    {% endfor %}
+    </ul>
+
+{% endblock %}
