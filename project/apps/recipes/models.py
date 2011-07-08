@@ -15,11 +15,15 @@ class Item(models.Model):
 
 class Recipe(models.Model):
     name = models.CharField(max_length=200, help_text="Name of the recipe")
-    slug = models.SlugField(editable=False)
+    slug = models.SlugField(editable=False, unique=True)
     time = models.CharField(max_length=200, blank=True, help_text="Preparation Time")
     serves = models.PositiveIntegerField(default=1,help_text="Number of servings")
+    leftovers = models.BooleanField(default=False, help_text="Makes Leftovers")
     source = models.CharField(max_length=200, blank=True, help_text="Source, please include page number")
+    source_url = models.URLField(verify_exists=True, blank=True)
+    equipment = models.TextField(blank=True, help_text="Equipment for Preparation")
     instructions = models.TextField(help_text="Instructions for Preparation")
+    health = models.TextField(blank=True, help_text="Related health facts")
 
     class Meta:
         ordering = ['name']
@@ -34,11 +38,16 @@ class Recipe(models.Model):
 class Ingredient(models.Model):
     recipe = models.ForeignKey(Recipe)
 
+    multiplier = models.PositiveIntegerField(default=1)
     amount = models.CharField(max_length=20, default="1")
     measurement = models.ForeignKey(Measurement)
     item = models.ForeignKey(Item)
-    preparation = models.CharField(max_length=200, blank=True, null=True, help_text="Short prep instruction")
+    preparation = models.CharField(max_length=200, blank=True, help_text="Short prep instruction")
 
     def __unicode__(self):
-        return "%s %s %s %s" % (self.amount, self.measurement, self.item, self.preparation)
+        name = ""
+        if self.multiplier > 1:
+            name += "%sx " % self.multiplier
+        name += "%s %s %s %s" % (self.amount, self.measurement, self.item, self.preparation)
+        return name
 

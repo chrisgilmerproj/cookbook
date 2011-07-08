@@ -14,10 +14,19 @@
     </ul>
     <br/>
 
-    <ul>
+    <table>
+    <tr>
+        <th></th>
+        <th>Amount</th>
+        <th>Ingredient</th>
+    </tr>
     {% for ingredient in ingredient_list %}
-    <li>{{ ingredient }}</li>
+    <tr>
+        <td>{% if ingredient.multiplier > 1 %}{{ ingredient.multiplier }}x{% endif%}</td>
+        <td>{{ ingredient.amount }} {{ ingredient.measurement }}</td>
+        <td>{{ ingredient.item }} {{ ingredient.preparation }}</td>
+    </tr>
     {% endfor %}
-    </ul>
+    </table>
 
 {% endblock %}

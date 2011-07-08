@@ -6,7 +6,12 @@
 <h1>{{ recipe.name }}</h1>
 <br/>
 
-<p>Source: {{ recipe.source }}</p>
+<p>Source: 
+{% if recipe.source_url %}
+<a href="{{recipe.source_url}}">{{ recipe.source }}</a>
+{% else %}
+{{ recipe.source }}
+{% endif %}</p>
 <br/>
 
 <p>Time to prepare: {{ recipe.time }}</p>
@@ -15,16 +20,33 @@
 <p>Serves: {{ recipe.serves }}</p>
 <br/>
 
+<p>Equipment:</p>
+<br/>
+{{ recipe.equipment|linebreaksbr }}
+<br/>
+<br/>
+
 <p>Ingredients:</p>
-<ul>
+<table>
+    <tr>
+        <th></th>
+        <th>Amount</th>
+        <th>Ingredient</th>
+    </tr>
     {% for ingredient in recipe.ingredient_set.all %}
-    <li>{{ingredient}}</li>
+    <tr>
+        <td>{% if ingredient.multiplier > 1 %}{{ ingredient.multiplier }}x{% endif%}</td>
+        <td>{{ ingredient.amount }} {{ ingredient.measurement }}</td>
+        <td>{{ ingredient.item }} {{ ingredient.preparation }}</td>
+    </tr>
     {% endfor %}
-</ul>
+</table>
 <br/>
 
 <p>Instructions:</p>
 <br/>
 {{ recipe.instructions|linebreaksbr }}
+<br/>
+<br/>
 
 {% endblock %}
