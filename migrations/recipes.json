@@ -125,11 +125,11 @@
         "pk": 4, 
         "model": "recipes.ingredient", 
         "fields": {
-            "multiplier": 1, 
+            "multiplier": 2, 
             "recipe": 1, 
             "preparation": "boneless, skin-on, pin bones removed", 
             "item": 4, 
-            "amount": "4", 
+            "amount": "2", 
             "measurement": 3
         }
     }, 

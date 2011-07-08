@@ -17,7 +17,10 @@
 <p>Time to prepare: {{ recipe.time }}</p>
 <br/>
 
-<p>Serves: {{ recipe.serves }}</p>
+<p>
+Serves: {{ recipe.serves }}
+{% if recipe.leftovers %}(Makes leftovers){% endif %}
+</p>
 <br/>
 
 <p>Equipment:</p>
@@ -48,5 +51,13 @@
 {{ recipe.instructions|linebreaksbr }}
 <br/>
 <br/>
+
+{% if recipe.health %}
+<p>Health</p>
+<br/>
+{{ recipe.health|linebreaksbr }}
+<br/>
+<br/>
+{% endif %}
 
 {% endblock %}
