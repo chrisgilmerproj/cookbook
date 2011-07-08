@@ -5,15 +5,20 @@ class IngredientInline(admin.TabularInline):
     extra = 1
     model = Ingredient
 
-class MeasurementAdmin(admin.ModelAdmin): pass
-admin.site.register(Measurement, MeasurementAdmin)
-
-class ItemAdmin(admin.ModelAdmin): pass
-admin.site.register(Item, ItemAdmin)
-
 class RecipeAdmin(admin.ModelAdmin):
+    fieldsets = (
+        (None, {'fields': [
+            'name','time','serves','leftovers','source','source_url','tags'
+        ]}),
+        (None, {'fields': [
+            'equipment','instructions','health',
+        ]}),
+    )
     inlines = [IngredientInline,]
-    list_display = ['name','time','serves','leftovers','source',]
+    list_display = ['name','time','serves','leftovers','source','tags',]
 
 admin.site.register(Recipe, RecipeAdmin)
+admin.site.register(Measurement)
+admin.site.register(Item)
+
 

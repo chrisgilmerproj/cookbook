@@ -29,6 +29,8 @@ FILE_UPLOAD_MAX_MEMORY_SIZE = 5242880
 # List of locations of the fixture data files, in search order
 FIXTURE_DIRS = ()
 
+FORCE_LOWERCASE_TAGS = True
+
 # A tuple of strings designating all the enabled applications
 INSTALLED_APPS = (
     'django.contrib.admin',
@@ -39,6 +41,8 @@ INSTALLED_APPS = (
     'django.contrib.sessions',
     'django.contrib.sites',
     'django.contrib.staticfiles',
+
+    'tagging',
 
     'initial_data', # load django-admin commands, initial fixtures, ..
     'recipes', 

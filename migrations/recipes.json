@@ -82,7 +82,7 @@
             "health": "nutrition information (per serving):\r\nCalories (kcal): 460; Fat (g): 28; Fat Calories (kcal): 260; Saturated Fat (g): 10; Protein (g): 46; Monounsaturated Fat (g): 10; Carbohydrates (g): 3; Polyunsaturated Fat (g): 6; Sodium (mg): 600; Cholesterol (mg): 150; Fiber (g): 1;", 
             "time": "1 hour", 
             "slug": "cedar-planked-lemon-pepper-salmon", 
-            "instructions": "Soak the cedar planks in water to cover for at least 1 hour. Drain the planks.\r\n\r\nPrepare the salmon\r\nIn a small bowl, combine the lemon zest, thyme, sugar, salt, and pepper.  Rub the mixture together with your fingers until the zest is distributed throughout. Rub the salmon fillets on both sides with the olive oil and then set each fillet skin side down on a plank.  Sprinkle the fillets with the lemon-pepper mixture, dividing it evenly.  Gently rub the seasoning into the fillets.  Let stand at room temperature while the grill heats.\r\n\r\nCook the salmon\r\nPrepare a gas or charcoal grill fire for indirect cooking with high heat: On a gas grill, heat all burners on high, then turn off all but one burner just before cooking the salmon; on a charcoal grill, bank the coals to two opposite sides of the grill.  Arrange the planks over the cooler part of the grill, positioning them so that the thickest part of the fish is closes to the heat source.  Cover the grill and cook until the thickest part of each fillet registers about 135def F on an instant-read thermometer, 20-35 minutes depending on the thickness of the fillets.  The planks may smoke a bit (this is fine) and will become very aromatic.  Let the fillets rest on the planks for 5 to 10 minutes before serving.\r\n\r\nCut the salmon fillets crosswise into serving portions and transfer to individual plates. Serve with horseradish-chive sauce.\r\n\r\nCool any leftover salmon completely, wrap well, and refrigerate for up to 3 days.\r\n\r\n\r\n"
+            "instructions": "Tip: If you want to serve both salmon fillets for 8 people, double the sauce recipe.\r\n\r\nSoak the cedar planks in water to cover for at least 1 hour. Drain the planks.\r\n\r\nPrepare the sauce\r\nIn a small bowl, stir the cr\u00e8me fra\u00eeche, chives, and horseradish. Season to taste with salt and pepper. Refrigerate.\r\n\r\nPrepare the salmon\r\nIn a small bowl, combine the lemon zest, thyme, sugar, 1 1/2 tsp. salt, and 1 Tbs. pepper. Rub the mixture together with your fingers until the zest is distributed throughout. Rub the salmon fillets on both sides with the olive oil and then set each fillet skin side down on a plank. Sprinkle the fillets with the lemon-pepper mixture, dividing it evenly. Gently rub the seasoning into the fillets. Let stand at room temperature while the grill heats.\r\n\r\nCook the salmon\r\nPrepare a gas or charcoal grill fire for indirect cooking with high heat: On a gas grill, heat all burners on high; then turn off all but one burner just before cooking the salmon; on a charcoal grill, bank the coals to two opposite sides of the grill. Arrange the planks over the cooler part of the grill, positioning them so that the thickest part of the fish is closest to the heat source. Cover the grill and cook until the thickest part of each fillet registers about 135\u00b0F on an instant-read thermometer, 20 to 35 minutes depending on the thickness of the fillets. The planks may smoke a bit (this is fine) and will become very aromatic. Let the fillets rest on the planks for 5 to 10 minutes before serving.\r\n\r\nCut the salmon fillets crosswise into serving portions and transfer to individual plates. Serve with the sauce.\r\n\r\nmake ahead tips\r\n\r\nThe sauce may be made up to 1 day ahead, and refrigerated, covered.\r\nserving suggestions\r\n\r\nTo round out your Sunday supper, serve this dish with Peas and Carrots with Lemon, Dill, and Mint.\r\n\r\nleftovers\r\n\r\nCool any leftover salmon completely, wrap well, and refrigerate for up to 3 days."
         }
     }, 
     {
@@ -94,7 +94,8 @@
             "preparation": "grated, minced", 
             "item": 1, 
             "amount": "1", 
-            "measurement": 1
+            "measurement": 1, 
+            "order": 1
         }
     }, 
     {
@@ -106,7 +107,8 @@
             "preparation": "chopped", 
             "item": 2, 
             "amount": "1-1/2", 
-            "measurement": 2
+            "measurement": 2, 
+            "order": 2
         }
     }, 
     {
@@ -118,31 +120,8 @@
             "preparation": "", 
             "item": 3, 
             "amount": "1/2", 
-            "measurement": 2
-        }
-    }, 
-    {
-        "pk": 4, 
-        "model": "recipes.ingredient", 
-        "fields": {
-            "multiplier": 2, 
-            "recipe": 1, 
-            "preparation": "boneless, skin-on, pin bones removed", 
-            "item": 4, 
-            "amount": "2", 
-            "measurement": 3
-        }
-    }, 
-    {
-        "pk": 5, 
-        "model": "recipes.ingredient", 
-        "fields": {
-            "multiplier": 1, 
-            "recipe": 1, 
-            "preparation": "", 
-            "item": 5, 
-            "amount": "2", 
-            "measurement": 1
+            "measurement": 2, 
+            "order": 3
         }
     }, 
     {
@@ -154,7 +133,8 @@
             "preparation": "", 
             "item": 6, 
             "amount": "1-1/2", 
-            "measurement": 2
+            "measurement": 2, 
+            "order": 4
         }
     }, 
     {
@@ -166,7 +146,34 @@
             "preparation": "freshly ground", 
             "item": 7, 
             "amount": "1", 
-            "measurement": 1
+            "measurement": 1, 
+            "order": 5
+        }
+    }, 
+    {
+        "pk": 4, 
+        "model": "recipes.ingredient", 
+        "fields": {
+            "multiplier": 2, 
+            "recipe": 1, 
+            "preparation": "boneless, skin-on, pin bones removed", 
+            "item": 4, 
+            "amount": "2", 
+            "measurement": 3, 
+            "order": 6
+        }
+    }, 
+    {
+        "pk": 5, 
+        "model": "recipes.ingredient", 
+        "fields": {
+            "multiplier": 1, 
+            "recipe": 1, 
+            "preparation": "", 
+            "item": 5, 
+            "amount": "2", 
+            "measurement": 1, 
+            "order": 7
         }
     }
 ]
