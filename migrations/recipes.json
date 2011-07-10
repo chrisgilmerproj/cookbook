@@ -28,10 +28,31 @@
         }
     }, 
     {
+        "pk": 6, 
+        "model": "recipes.measurement", 
+        "fields": {
+            "name": "oz."
+        }
+    }, 
+    {
         "pk": 2, 
         "model": "recipes.measurement", 
         "fields": {
             "name": "tsp."
+        }
+    }, 
+    {
+        "pk": 22, 
+        "model": "recipes.item", 
+        "fields": {
+            "name": "anchovy fillet"
+        }
+    }, 
+    {
+        "pk": 25, 
+        "model": "recipes.item", 
+        "fields": {
+            "name": "cheese, parmigiano-reggiano"
         }
     }, 
     {
@@ -105,6 +126,13 @@
         }
     }, 
     {
+        "pk": 24, 
+        "model": "recipes.item", 
+        "fields": {
+            "name": "mustard, dijon"
+        }
+    }, 
+    {
         "pk": 5, 
         "model": "recipes.item", 
         "fields": {
@@ -130,6 +158,20 @@
         "model": "recipes.item", 
         "fields": {
             "name": "pita"
+        }
+    }, 
+    {
+        "pk": 21, 
+        "model": "recipes.item", 
+        "fields": {
+            "name": "radicchio"
+        }
+    }, 
+    {
+        "pk": 20, 
+        "model": "recipes.item", 
+        "fields": {
+            "name": "romaine lettuce"
         }
     }, 
     {
@@ -168,6 +210,13 @@
         }
     }, 
     {
+        "pk": 23, 
+        "model": "recipes.item", 
+        "fields": {
+            "name": "vinegar, balsamic"
+        }
+    }, 
+    {
         "pk": 1, 
         "model": "recipes.recipe", 
         "fields": {
@@ -202,6 +251,23 @@
         }
     }, 
     {
+        "pk": 3, 
+        "model": "recipes.recipe", 
+        "fields": {
+            "name": "Grilled Radicchio and Romaine Salad", 
+            "equipment": "", 
+            "leftovers": false, 
+            "tags": "", 
+            "serves": 1, 
+            "source_url": "http://www.finecooking.com/recipes/grilled-radicchio-romaine-salad.aspx", 
+            "source": "Fine Cooking 105, page 54", 
+            "health": "nutrition information (per serving):\r\nCalories (kcal): 310; Fat (g): 27; Fat Calories (kcal): 240; Saturated Fat (g): 5; Protein (g): 10; Monounsaturated Fat (g): 18; Carbohydrates (g): 8; Polyunsaturated Fat (g): 3; Sodium (mg): 750; Cholesterol (mg): 20; Fiber (g): 3;", 
+            "time": "", 
+            "slug": "grilled-radicchio-and-romaine-salad", 
+            "instructions": "Prepare a medium-high gas or charcoal grill fire, or heat a grill pan over medium-high heat until hot.\r\n\r\nCut the romaine and radicchio in half through the root ends. Rinse the leaves and dry well.\r\n\r\nPour the oil into a large baking dish. Dip the lettuces cut side down in the oil, swirling to coat well; then place them cut side down on the grill. Grill, covered, without turning, until charred and wilted in spots, about 4 minutes. Transfer to a cutting board. Remove the cores and chop the lettuce into bite-size pieces.\r\n\r\nPress the garlic and the anchovy through a garlic press into a large salad bowl (or mince by hand). Whisk in the vinegar, mustard, and 1/2 tsp. each salt and pepper. Transfer the lettuces and any juice from the cutting board to the salad bowl. Add the cheese and toss well."
+        }
+    }, 
+    {
         "pk": 1, 
         "model": "recipes.ingredient", 
         "fields": {
@@ -225,6 +291,20 @@
             "item": 5, 
             "amount": "1/4", 
             "measurement": 4, 
+            "optional": false, 
+            "order": 1
+        }
+    }, 
+    {
+        "pk": 22, 
+        "model": "recipes.ingredient", 
+        "fields": {
+            "multiplier": 1, 
+            "recipe": 3, 
+            "preparation": "1 medium head", 
+            "item": 20, 
+            "amount": "1", 
+            "measurement": 3, 
             "optional": false, 
             "order": 1
         }
@@ -258,6 +338,20 @@
         }
     }, 
     {
+        "pk": 23, 
+        "model": "recipes.ingredient", 
+        "fields": {
+            "multiplier": 1, 
+            "recipe": 3, 
+            "preparation": "1 medium head", 
+            "item": 21, 
+            "amount": "8", 
+            "measurement": 6, 
+            "optional": false, 
+            "order": 2
+        }
+    }, 
+    {
         "pk": 3, 
         "model": "recipes.ingredient", 
         "fields": {
@@ -286,6 +380,20 @@
         }
     }, 
     {
+        "pk": 24, 
+        "model": "recipes.ingredient", 
+        "fields": {
+            "multiplier": 1, 
+            "recipe": 3, 
+            "preparation": "", 
+            "item": 5, 
+            "amount": "1/2", 
+            "measurement": 4, 
+            "optional": false, 
+            "order": 3
+        }
+    }, 
+    {
         "pk": 6, 
         "model": "recipes.ingredient", 
         "fields": {
@@ -307,6 +415,20 @@
             "recipe": 2, 
             "preparation": "six-inches", 
             "item": 10, 
+            "amount": "1", 
+            "measurement": null, 
+            "optional": false, 
+            "order": 4
+        }
+    }, 
+    {
+        "pk": 25, 
+        "model": "recipes.ingredient", 
+        "fields": {
+            "multiplier": 1, 
+            "recipe": 3, 
+            "preparation": "medium", 
+            "item": 8, 
             "amount": "1", 
             "measurement": null, 
             "optional": false, 
@@ -342,6 +464,20 @@
         }
     }, 
     {
+        "pk": 26, 
+        "model": "recipes.ingredient", 
+        "fields": {
+            "multiplier": 1, 
+            "recipe": 3, 
+            "preparation": "small, rinsed and patted dry", 
+            "item": 22, 
+            "amount": "1", 
+            "measurement": null, 
+            "optional": false, 
+            "order": 5
+        }
+    }, 
+    {
         "pk": 4, 
         "model": "recipes.ingredient", 
         "fields": {
@@ -364,6 +500,20 @@
             "preparation": "", 
             "item": 12, 
             "amount": "5", 
+            "measurement": 1, 
+            "optional": false, 
+            "order": 6
+        }
+    }, 
+    {
+        "pk": 27, 
+        "model": "recipes.ingredient", 
+        "fields": {
+            "multiplier": 1, 
+            "recipe": 3, 
+            "preparation": "", 
+            "item": 23, 
+            "amount": "2-1/2", 
             "measurement": 1, 
             "optional": false, 
             "order": 6
@@ -398,6 +548,20 @@
         }
     }, 
     {
+        "pk": 28, 
+        "model": "recipes.ingredient", 
+        "fields": {
+            "multiplier": 1, 
+            "recipe": 3, 
+            "preparation": "", 
+            "item": 24, 
+            "amount": "1/2", 
+            "measurement": 2, 
+            "optional": false, 
+            "order": 7
+        }
+    }, 
+    {
         "pk": 15, 
         "model": "recipes.ingredient", 
         "fields": {
@@ -405,6 +569,20 @@
             "recipe": 2, 
             "preparation": "large", 
             "item": 14, 
+            "amount": "1", 
+            "measurement": null, 
+            "optional": false, 
+            "order": 8
+        }
+    }, 
+    {
+        "pk": 29, 
+        "model": "recipes.ingredient", 
+        "fields": {
+            "multiplier": 1, 
+            "recipe": 3, 
+            "preparation": "", 
+            "item": 6, 
             "amount": "1", 
             "measurement": null, 
             "optional": false, 
@@ -426,6 +604,20 @@
         }
     }, 
     {
+        "pk": 30, 
+        "model": "recipes.ingredient", 
+        "fields": {
+            "multiplier": 1, 
+            "recipe": 3, 
+            "preparation": "freshly ground", 
+            "item": 7, 
+            "amount": "1", 
+            "measurement": null, 
+            "optional": false, 
+            "order": 9
+        }
+    }, 
+    {
         "pk": 17, 
         "model": "recipes.ingredient", 
         "fields": {
@@ -435,6 +627,20 @@
             "item": 15, 
             "amount": "2", 
             "measurement": 1, 
+            "optional": false, 
+            "order": 10
+        }
+    }, 
+    {
+        "pk": 31, 
+        "model": "recipes.ingredient", 
+        "fields": {
+            "multiplier": 1, 
+            "recipe": 3, 
+            "preparation": "grated on the large holes of a box grater (1/2 cup, lightly packed)", 
+            "item": 25, 
+            "amount": "1-1/2", 
+            "measurement": 6, 
             "optional": false, 
             "order": 10
         }
