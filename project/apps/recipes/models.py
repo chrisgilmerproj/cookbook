@@ -14,15 +14,20 @@ class Measurement(models.Model):
 
 class Item(models.Model):
     name = models.CharField(max_length=200, help_text="Name of the ingredient")
+    alt_name = models.CharField(max_length=200, blank=True, help_text="Alternate ingredient name")
 
     class Meta:
         ordering = ['name',]
 
     def __unicode__(self):
-        return self.name
+        name = self.name
+        if self.alt_name:
+            name += " (%s)" % (self.alt_name)
+        return name
 
     def save(self, *args, **kwargs):
         self.name = self.name.lower()
+        self.alt_name = self.alt_name.lower()
         super(Item, self).save(*args, **kwargs)
 
 class Recipe(models.Model):

@@ -7,6 +7,7 @@ class MeasurementAdmin(admin.ModelAdmin):
 admin.site.register(Measurement, MeasurementAdmin)
 
 class ItemAdmin(admin.ModelAdmin):
+    #list_display = ['name','alt_name',]
     search_fields = ['name',]
 
 admin.site.register(Item, ItemAdmin)

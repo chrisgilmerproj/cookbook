@@ -51,11 +51,11 @@ def recipe_random(request):
     for ing in Ingredient.objects.filter(recipe__in=recipe_list):
         short = ing.short()
         if short:
-            item = ing.item.name
-            if item in ingredient_dict:
-                ingredient_dict[item].append(ing.short())
+            item = "%s" % ing.item
+            if item in ingredient_dict and short not in ingredient_dict[item]:
+                ingredient_dict[item].append(short)
             else:
-                ingredient_dict[item] = [ing.short()]
+                ingredient_dict[item] = [short]
    
     ingredient_list = []
     for item, amounts in ingredient_dict.iteritems():
