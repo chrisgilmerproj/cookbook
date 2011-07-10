@@ -37,7 +37,7 @@ class Recipe(models.Model):
     health = models.TextField(blank=True, help_text="Related health facts")
     equipment = models.TextField(blank=True, help_text="Equipment for Preparation")
 
-    tags = models.CharField(max_length=200) #TagField()
+    tags = TagField()
 
     class Meta:
         ordering = ['name']
