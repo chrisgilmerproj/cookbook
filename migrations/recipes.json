@@ -77,10 +77,31 @@
         }
     }, 
     {
+        "pk": 27, 
+        "model": "recipes.item", 
+        "fields": {
+            "name": "dry yeast, active"
+        }
+    }, 
+    {
         "pk": 14, 
         "model": "recipes.item", 
         "fields": {
             "name": "egg"
+        }
+    }, 
+    {
+        "pk": 28, 
+        "model": "recipes.item", 
+        "fields": {
+            "name": "flour, unbleached all-purpose"
+        }
+    }, 
+    {
+        "pk": 29, 
+        "model": "recipes.item", 
+        "fields": {
+            "name": "flour, whole-wheat"
         }
     }, 
     {
@@ -109,6 +130,13 @@
         "model": "recipes.item", 
         "fields": {
             "name": "harissa"
+        }
+    }, 
+    {
+        "pk": 26, 
+        "model": "recipes.item", 
+        "fields": {
+            "name": "honey"
         }
     }, 
     {
@@ -226,7 +254,7 @@
             "tags": "", 
             "serves": 4, 
             "source_url": "http://www.finecooking.com/recipes/cedar-planked-lemon-pepper-salmon-horseradish-sauce.aspx", 
-            "source": "Fine Cooking 111, June/July 2011, Page 57", 
+            "source": "Fine Cooking 111, Page 57", 
             "health": "nutrition information (per serving):\r\nCalories (kcal): 460; Fat (g): 28; Fat Calories (kcal): 260; Saturated Fat (g): 10; Protein (g): 46; Monounsaturated Fat (g): 10; Carbohydrates (g): 3; Polyunsaturated Fat (g): 6; Sodium (mg): 600; Cholesterol (mg): 150; Fiber (g): 1;", 
             "time": "1 hour", 
             "slug": "cedar-planked-lemon-pepper-salmon", 
@@ -243,11 +271,28 @@
             "tags": "dinner, grill", 
             "serves": 1, 
             "source_url": "http://www.finecooking.com/recipes/grilled-chickpea-burgers-creamy-lemon-tahini-sauce.aspx", 
-            "source": "Fine Cooking 111, June/July 2011, Page 21", 
+            "source": "Fine Cooking 111, Page 42", 
             "health": "nutrition information (per serving):\r\nCalories (kcal): 540; Fat (g): 23; Fat Calories (kcal): 210; Saturated Fat (g): 3; Protein (g): 20; Monounsaturated Fat (g): 12; Carbohydrates (g): 67; Polyunsaturated Fat (g): 6; Sodium (mg): 660; Cholesterol (mg): 30; Fiber (g): 13;", 
             "time": "", 
             "slug": "grilled-chickpea-burgers-with-creamy-lemon-tahini-sauce", 
             "instructions": "Prepare a high gas or charcoal grill fire.\r\n\r\nHeat the oil, garlic, and cumin in a small saucepan over medium-low heat until the garlic is soft but not brown, about 3 minutes. Set aside off the heat.\r\n\r\nTear one of the pitas in half and toast in a toaster until golden-brown and crisp. In a food processor, grind the pita into fine crumbs; transfer the crumbs to a small bowl and measure them\u2014you\u2019ll need 1/2 cup. If necessary, toast and grind a second pita.\r\n\r\nIn the food processor, pur\u00e9e 1 can of the chickpeas with the oil mixture, 2 Tbs. of the tahini, 1 Tbs. of the lemon juice, the egg, and 3/4 tsp. salt until smooth. Add the remaining chickpeas and the pita crumbs, parsley, and cilantro; pulse until the chickpeas are coarsely chopped and the mixture is well blended.\r\n\r\nPut the remaining 3 Tbs. tahini in a small bowl and gradually whisk in 2 Tbs. water and the remaining 3 Tbs. lemon juice (the tahini will thicken at first and then smooth out).\r\nShape the chickpea mixture into 6 patties, each about 3/4 inch thick. Brush both sides of each with oil. Grill, covered, until heated through and nicely marked on both sides, 2 to 3 minutes per side.\r\n\r\nCut the remaining 3 pitas in half and heat briefly on the grill. Layer the burgers in the pitas with the sliced cucumber and tomatoes, drizzle with the tahini sauce and harissa (if using), and serve.\r\n\r\n<b>Serving suggestions</b>\r\n\r\nServe these delicious burgers with Tabbouleh."
+        }
+    }, 
+    {
+        "pk": 4, 
+        "model": "recipes.recipe", 
+        "fields": {
+            "name": "Grilled Pita Bread", 
+            "equipment": "", 
+            "leftovers": false, 
+            "tags": "grilled", 
+            "serves": 1, 
+            "source_url": "http://www.finecooking.com/recipes/grilled-pita-bread.aspx", 
+            "source": "Fine Cooking 105, page 54", 
+            "health": "nutrition information (per serving):\r\nCalories (kcal): 220; Fat (g): 3.5; Fat Calories (kcal): 30; Saturated Fat (g): 0; Protein (g): 6; Monounsaturated Fat (g): 2; Carbohydrates (g): 41; Polyunsaturated Fat (g): 0.5; Sodium (mg): 60; Cholesterol (mg): 0; Fiber (g): 2;", 
+            "time": "", 
+            "slug": "grilled-pita-bread", 
+            "instructions": "In a small bowl, mix the honey with 1/2 cup lukewarm water and stir in the yeast. Let sit until the yeast has started to foam, 2 to 3 minutes.\r\n\r\nPut both flours and the salt in the bowl of a stand mixer fitted with the dough hook. With the mixer running on low speed, mix in the olive oil until fully incorporated, about 2 minutes. Add the yeast mixture and 1 cup lukewarm water and mix until fully incorporated, 2 to 3 minutes more. Raise the speed to medium and knead the dough until it comes away from the sides of the bowl and forms a ball that is smooth, elastic, and no longer sticky, 4 to 5 minutes. If the dough seems too wet, add more all-purpose flour, 1 tsp. at a time. Raise the speed to medium high and continue to knead for 5 minutes. Oil a medium bowl, transfer the dough to the bowl, and roll to coat it with the oil. Cover with plastic wrap and let rise in a warm place until doubled in size, about 1 hour.\r\n\r\nTurn the dough onto a lightly floured surface and knead two or three times to remove any air bubbles. Form into a log and divide it evenly into 10 pieces. Form each piece into a ball and then roll into disks about 1/4 inch thick and 6 inches in diameter. Lightly oil two rimmed baking sheets. Put the disks on the baking sheets, cover with plastic wrap, and let rise until just doubled in thickness, 30 to 45 minutes.\r\n\r\nPrepare a medium-high gas grill fire, leaving one burner off, or prepare a charcoal fire with a hot zone and cool zone by pushing the coals to one side of the grill.\r\n\r\nBrush a cast-iron griddle or skillet lightly with olive oil and put it on the grill over the cool zone. When very hot, cook the pitas in batches on the griddle until starting to brown, 2 to 3 minutes. Flip and continue cooking until lightly golden on the bottom and the pitas are cooked through, 2 to 3 minutes more. Cool on a wire rack. If stuffing, cut the pitas in half and carefully separate the layers with a fork."
         }
     }, 
     {
@@ -260,7 +305,7 @@
             "tags": "", 
             "serves": 1, 
             "source_url": "http://www.finecooking.com/recipes/grilled-radicchio-romaine-salad.aspx", 
-            "source": "Fine Cooking 105, page 54", 
+            "source": "Fine Cooking 111, page 21", 
             "health": "nutrition information (per serving):\r\nCalories (kcal): 310; Fat (g): 27; Fat Calories (kcal): 240; Saturated Fat (g): 5; Protein (g): 10; Monounsaturated Fat (g): 18; Carbohydrates (g): 8; Polyunsaturated Fat (g): 3; Sodium (mg): 750; Cholesterol (mg): 20; Fiber (g): 3;", 
             "time": "", 
             "slug": "grilled-radicchio-and-romaine-salad", 
@@ -310,6 +355,20 @@
         }
     }, 
     {
+        "pk": 32, 
+        "model": "recipes.ingredient", 
+        "fields": {
+            "multiplier": 1, 
+            "recipe": 4, 
+            "preparation": "", 
+            "item": 26, 
+            "amount": "1", 
+            "measurement": 1, 
+            "optional": false, 
+            "order": 1
+        }
+    }, 
+    {
         "pk": 2, 
         "model": "recipes.ingredient", 
         "fields": {
@@ -352,6 +411,20 @@
         }
     }, 
     {
+        "pk": 33, 
+        "model": "recipes.ingredient", 
+        "fields": {
+            "multiplier": 1, 
+            "recipe": 4, 
+            "preparation": "", 
+            "item": 27, 
+            "amount": "2", 
+            "measurement": 2, 
+            "optional": false, 
+            "order": 2
+        }
+    }, 
+    {
         "pk": 3, 
         "model": "recipes.ingredient", 
         "fields": {
@@ -388,6 +461,20 @@
             "preparation": "", 
             "item": 5, 
             "amount": "1/2", 
+            "measurement": 4, 
+            "optional": false, 
+            "order": 3
+        }
+    }, 
+    {
+        "pk": 34, 
+        "model": "recipes.ingredient", 
+        "fields": {
+            "multiplier": 1, 
+            "recipe": 4, 
+            "preparation": "more as needed", 
+            "item": 28, 
+            "amount": "3-1/2", 
             "measurement": 4, 
             "optional": false, 
             "order": 3
@@ -436,6 +523,20 @@
         }
     }, 
     {
+        "pk": 35, 
+        "model": "recipes.ingredient", 
+        "fields": {
+            "multiplier": 1, 
+            "recipe": 4, 
+            "preparation": "", 
+            "item": 29, 
+            "amount": "2-1/2", 
+            "measurement": 6, 
+            "optional": false, 
+            "order": 4
+        }
+    }, 
+    {
         "pk": 7, 
         "model": "recipes.ingredient", 
         "fields": {
@@ -478,6 +579,20 @@
         }
     }, 
     {
+        "pk": 36, 
+        "model": "recipes.ingredient", 
+        "fields": {
+            "multiplier": 1, 
+            "recipe": 4, 
+            "preparation": "", 
+            "item": 6, 
+            "amount": "1-1/2", 
+            "measurement": 2, 
+            "optional": false, 
+            "order": 5
+        }
+    }, 
+    {
         "pk": 4, 
         "model": "recipes.ingredient", 
         "fields": {
@@ -514,6 +629,20 @@
             "preparation": "", 
             "item": 23, 
             "amount": "2-1/2", 
+            "measurement": 1, 
+            "optional": false, 
+            "order": 6
+        }
+    }, 
+    {
+        "pk": 37, 
+        "model": "recipes.ingredient", 
+        "fields": {
+            "multiplier": 1, 
+            "recipe": 4, 
+            "preparation": "more for the bowl", 
+            "item": 5, 
+            "amount": "2", 
             "measurement": 1, 
             "optional": false, 
             "order": 6
