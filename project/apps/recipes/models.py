@@ -6,14 +6,24 @@ from tagging.fields import TagField
 class Measurement(models.Model):
     name = models.CharField(max_length=200, help_text="Name of the ingredient")
 
+    class Meta:
+        ordering = ['name',]
+
     def __unicode__(self):
         return self.name
 
 class Item(models.Model):
     name = models.CharField(max_length=200, help_text="Name of the ingredient")
 
+    class Meta:
+        ordering = ['name',]
+
     def __unicode__(self):
         return self.name
+
+    def save(self, *args, **kwargs):
+        self.name = self.name.lower()
+        super(Item, self).save(*args, **kwargs)
 
 class Recipe(models.Model):
     name = models.CharField(max_length=200, help_text="Name of the recipe")
@@ -35,9 +45,9 @@ class Recipe(models.Model):
     def __unicode__(self):
         return "%s" % (self.name)
 
-    def save(self):
+    def save(self, *args, **kwargs):
         self.slug = slugify(self.name)
-        super(Recipe, self).save()
+        super(Recipe, self).save(*args, **kwargs)
 
     def get_tags(self):
         return Tag.objects.get_for_object(self)
@@ -48,7 +58,7 @@ class Ingredient(models.Model):
     order = models.PositiveIntegerField(blank=True, null=True)
     multiplier = models.PositiveIntegerField(default=1)
     amount = models.CharField(max_length=20, default="1")
-    measurement = models.ForeignKey(Measurement)
+    measurement = models.ForeignKey(Measurement, blank=True, null=True)
     item = models.ForeignKey(Item)
     preparation = models.CharField(max_length=200, blank=True, help_text="Short prep instruction")
 
@@ -59,5 +69,9 @@ class Ingredient(models.Model):
         name = ""
         if self.multiplier > 1:
             name += "%sx " % self.multiplier
-        name += "%s %s %s %s" % (self.amount, self.measurement, self.item, self.preparation)
+        if self.amount != '1':
+            name += "%s " % (self.amount)
+        if self.measurement:
+            name += "%s " % (self.measurement)
+        name += "%s %s" % (self.item, self.preparation)
         return name

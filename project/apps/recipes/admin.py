@@ -1,9 +1,20 @@
 from django.contrib import admin
 from recipes.models import Measurement, Ingredient, Item, Recipe
 
+class MeasurementAdmin(admin.ModelAdmin):
+    search_fields = ['name',]
+
+admin.site.register(Measurement, MeasurementAdmin)
+
+class ItemAdmin(admin.ModelAdmin):
+    search_fields = ['name',]
+
+admin.site.register(Item, ItemAdmin)
+
 class IngredientInline(admin.TabularInline):
     extra = 1
     model = Ingredient
+    raw_id_fields = ['item',]
 
 class RecipeAdmin(admin.ModelAdmin):
     fieldsets = (
@@ -18,7 +29,3 @@ class RecipeAdmin(admin.ModelAdmin):
     list_display = ['name','time','serves','leftovers','source','tags',]
 
 admin.site.register(Recipe, RecipeAdmin)
-admin.site.register(Measurement)
-admin.site.register(Item)
-
-

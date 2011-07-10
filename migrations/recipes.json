@@ -7,10 +7,17 @@
         }
     }, 
     {
-        "pk": 2, 
+        "pk": 5, 
         "model": "recipes.measurement", 
         "fields": {
-            "name": "tsp."
+            "name": "can"
+        }
+    }, 
+    {
+        "pk": 4, 
+        "model": "recipes.measurement", 
+        "fields": {
+            "name": "cup"
         }
     }, 
     {
@@ -21,45 +28,10 @@
         }
     }, 
     {
-        "pk": 1, 
-        "model": "recipes.item", 
-        "fields": {
-            "name": "lemon zest"
-        }
-    }, 
-    {
         "pk": 2, 
-        "model": "recipes.item", 
+        "model": "recipes.measurement", 
         "fields": {
-            "name": "fresh thyme"
-        }
-    }, 
-    {
-        "pk": 3, 
-        "model": "recipes.item", 
-        "fields": {
-            "name": "granulated sugar"
-        }
-    }, 
-    {
-        "pk": 4, 
-        "model": "recipes.item", 
-        "fields": {
-            "name": "salmon fillet"
-        }
-    }, 
-    {
-        "pk": 5, 
-        "model": "recipes.item", 
-        "fields": {
-            "name": "extra-virgin olive oil"
-        }
-    }, 
-    {
-        "pk": 6, 
-        "model": "recipes.item", 
-        "fields": {
-            "name": "kosher salt"
+            "name": "tsp."
         }
     }, 
     {
@@ -70,12 +42,139 @@
         }
     }, 
     {
+        "pk": 11, 
+        "model": "recipes.item", 
+        "fields": {
+            "name": "chickpeas (garbonzo beans)"
+        }
+    }, 
+    {
+        "pk": 16, 
+        "model": "recipes.item", 
+        "fields": {
+            "name": "cilantro"
+        }
+    }, 
+    {
+        "pk": 17, 
+        "model": "recipes.item", 
+        "fields": {
+            "name": "cucumber, english"
+        }
+    }, 
+    {
+        "pk": 14, 
+        "model": "recipes.item", 
+        "fields": {
+            "name": "egg"
+        }
+    }, 
+    {
+        "pk": 5, 
+        "model": "recipes.item", 
+        "fields": {
+            "name": "extra-virgin olive oil"
+        }
+    }, 
+    {
+        "pk": 2, 
+        "model": "recipes.item", 
+        "fields": {
+            "name": "fresh thyme"
+        }
+    }, 
+    {
+        "pk": 8, 
+        "model": "recipes.item", 
+        "fields": {
+            "name": "garlic clove"
+        }
+    }, 
+    {
+        "pk": 3, 
+        "model": "recipes.item", 
+        "fields": {
+            "name": "granulated sugar"
+        }
+    }, 
+    {
+        "pk": 9, 
+        "model": "recipes.item", 
+        "fields": {
+            "name": "ground cumin"
+        }
+    }, 
+    {
+        "pk": 19, 
+        "model": "recipes.item", 
+        "fields": {
+            "name": "harissa"
+        }
+    }, 
+    {
+        "pk": 6, 
+        "model": "recipes.item", 
+        "fields": {
+            "name": "kosher salt"
+        }
+    }, 
+    {
+        "pk": 13, 
+        "model": "recipes.item", 
+        "fields": {
+            "name": "lemon juice"
+        }
+    }, 
+    {
+        "pk": 1, 
+        "model": "recipes.item", 
+        "fields": {
+            "name": "lemon zest"
+        }
+    }, 
+    {
+        "pk": 15, 
+        "model": "recipes.item", 
+        "fields": {
+            "name": "parsley, flat-leaf"
+        }
+    }, 
+    {
+        "pk": 10, 
+        "model": "recipes.item", 
+        "fields": {
+            "name": "pita"
+        }
+    }, 
+    {
+        "pk": 4, 
+        "model": "recipes.item", 
+        "fields": {
+            "name": "salmon fillet"
+        }
+    }, 
+    {
+        "pk": 12, 
+        "model": "recipes.item", 
+        "fields": {
+            "name": "tahini"
+        }
+    }, 
+    {
+        "pk": 18, 
+        "model": "recipes.item", 
+        "fields": {
+            "name": "tomato"
+        }
+    }, 
+    {
         "pk": 1, 
         "model": "recipes.recipe", 
         "fields": {
             "name": "Cedar-Planked Lemon-Pepper Salmon", 
             "equipment": "2 15x7-inch untreated cedar planks", 
             "leftovers": true, 
+            "tags": "", 
             "serves": 4, 
             "source_url": "http://www.finecooking.com/recipes/cedar-planked-lemon-pepper-salmon-horseradish-sauce.aspx", 
             "source": "Fine Cooking 111, June/July 2011, Page 57", 
@@ -83,6 +182,23 @@
             "time": "1 hour", 
             "slug": "cedar-planked-lemon-pepper-salmon", 
             "instructions": "Tip: If you want to serve both salmon fillets for 8 people, double the sauce recipe.\r\n\r\nSoak the cedar planks in water to cover for at least 1 hour. Drain the planks.\r\n\r\nPrepare the sauce\r\nIn a small bowl, stir the cr\u00e8me fra\u00eeche, chives, and horseradish. Season to taste with salt and pepper. Refrigerate.\r\n\r\nPrepare the salmon\r\nIn a small bowl, combine the lemon zest, thyme, sugar, 1 1/2 tsp. salt, and 1 Tbs. pepper. Rub the mixture together with your fingers until the zest is distributed throughout. Rub the salmon fillets on both sides with the olive oil and then set each fillet skin side down on a plank. Sprinkle the fillets with the lemon-pepper mixture, dividing it evenly. Gently rub the seasoning into the fillets. Let stand at room temperature while the grill heats.\r\n\r\nCook the salmon\r\nPrepare a gas or charcoal grill fire for indirect cooking with high heat: On a gas grill, heat all burners on high; then turn off all but one burner just before cooking the salmon; on a charcoal grill, bank the coals to two opposite sides of the grill. Arrange the planks over the cooler part of the grill, positioning them so that the thickest part of the fish is closest to the heat source. Cover the grill and cook until the thickest part of each fillet registers about 135\u00b0F on an instant-read thermometer, 20 to 35 minutes depending on the thickness of the fillets. The planks may smoke a bit (this is fine) and will become very aromatic. Let the fillets rest on the planks for 5 to 10 minutes before serving.\r\n\r\nCut the salmon fillets crosswise into serving portions and transfer to individual plates. Serve with the sauce.\r\n\r\nmake ahead tips\r\n\r\nThe sauce may be made up to 1 day ahead, and refrigerated, covered.\r\nserving suggestions\r\n\r\nTo round out your Sunday supper, serve this dish with Peas and Carrots with Lemon, Dill, and Mint.\r\n\r\nleftovers\r\n\r\nCool any leftover salmon completely, wrap well, and refrigerate for up to 3 days."
+        }
+    }, 
+    {
+        "pk": 2, 
+        "model": "recipes.recipe", 
+        "fields": {
+            "name": "Grilled Chickpea Burgers with Creamy Lemon Tahini Sauce", 
+            "equipment": "", 
+            "leftovers": false, 
+            "tags": "dinner, grill", 
+            "serves": 1, 
+            "source_url": "http://www.finecooking.com/recipes/grilled-chickpea-burgers-creamy-lemon-tahini-sauce.aspx", 
+            "source": "Fine Cooking 111, June/July 2011, Page 21", 
+            "health": "nutrition information (per serving):\r\nCalories (kcal): 540; Fat (g): 23; Fat Calories (kcal): 210; Saturated Fat (g): 3; Protein (g): 20; Monounsaturated Fat (g): 12; Carbohydrates (g): 67; Polyunsaturated Fat (g): 6; Sodium (mg): 660; Cholesterol (mg): 30; Fiber (g): 13;", 
+            "time": "", 
+            "slug": "grilled-chickpea-burgers-with-creamy-lemon-tahini-sauce", 
+            "instructions": "Prepare a high gas or charcoal grill fire.\r\n\r\nHeat the oil, garlic, and cumin in a small saucepan over medium-low heat until the garlic is soft but not brown, about 3 minutes. Set aside off the heat.\r\n\r\nTear one of the pitas in half and toast in a toaster until golden-brown and crisp. In a food processor, grind the pita into fine crumbs; transfer the crumbs to a small bowl and measure them\u2014you\u2019ll need 1/2 cup. If necessary, toast and grind a second pita.\r\n\r\nIn the food processor, pur\u00e9e 1 can of the chickpeas with the oil mixture, 2 Tbs. of the tahini, 1 Tbs. of the lemon juice, the egg, and 3/4 tsp. salt until smooth. Add the remaining chickpeas and the pita crumbs, parsley, and cilantro; pulse until the chickpeas are coarsely chopped and the mixture is well blended.\r\n\r\nPut the remaining 3 Tbs. tahini in a small bowl and gradually whisk in 2 Tbs. water and the remaining 3 Tbs. lemon juice (the tahini will thicken at first and then smooth out).\r\nShape the chickpea mixture into 6 patties, each about 3/4 inch thick. Brush both sides of each with oil. Grill, covered, until heated through and nicely marked on both sides, 2 to 3 minutes per side.\r\n\r\nCut the remaining 3 pitas in half and heat briefly on the grill. Layer the burgers in the pitas with the sliced cucumber and tomatoes, drizzle with the tahini sauce and harissa (if using), and serve.\r\n\r\n<b>Serving suggestions</b>\r\n\r\nServe these delicious burgers with Tabbouleh."
         }
     }, 
     {
@@ -95,6 +211,19 @@
             "item": 1, 
             "amount": "1", 
             "measurement": 1, 
+            "order": 1
+        }
+    }, 
+    {
+        "pk": 8, 
+        "model": "recipes.ingredient", 
+        "fields": {
+            "multiplier": 1, 
+            "recipe": 2, 
+            "preparation": "more for brushing", 
+            "item": 5, 
+            "amount": "1/4", 
+            "measurement": 4, 
             "order": 1
         }
     }, 
@@ -112,6 +241,19 @@
         }
     }, 
     {
+        "pk": 9, 
+        "model": "recipes.ingredient", 
+        "fields": {
+            "multiplier": 4, 
+            "recipe": 2, 
+            "preparation": "medium size", 
+            "item": 8, 
+            "amount": "1", 
+            "measurement": null, 
+            "order": 2
+        }
+    }, 
+    {
         "pk": 3, 
         "model": "recipes.ingredient", 
         "fields": {
@@ -120,6 +262,19 @@
             "preparation": "", 
             "item": 3, 
             "amount": "1/2", 
+            "measurement": 2, 
+            "order": 3
+        }
+    }, 
+    {
+        "pk": 10, 
+        "model": "recipes.ingredient", 
+        "fields": {
+            "multiplier": 1, 
+            "recipe": 2, 
+            "preparation": "", 
+            "item": 9, 
+            "amount": "2", 
             "measurement": 2, 
             "order": 3
         }
@@ -138,6 +293,19 @@
         }
     }, 
     {
+        "pk": 11, 
+        "model": "recipes.ingredient", 
+        "fields": {
+            "multiplier": 4, 
+            "recipe": 2, 
+            "preparation": "six-inches", 
+            "item": 10, 
+            "amount": "1", 
+            "measurement": null, 
+            "order": 4
+        }
+    }, 
+    {
         "pk": 7, 
         "model": "recipes.ingredient", 
         "fields": {
@@ -147,6 +315,19 @@
             "item": 7, 
             "amount": "1", 
             "measurement": 1, 
+            "order": 5
+        }
+    }, 
+    {
+        "pk": 12, 
+        "model": "recipes.ingredient", 
+        "fields": {
+            "multiplier": 2, 
+            "recipe": 2, 
+            "preparation": "drained and rinsed", 
+            "item": 11, 
+            "amount": "15.5-oz", 
+            "measurement": 5, 
             "order": 5
         }
     }, 
@@ -164,6 +345,19 @@
         }
     }, 
     {
+        "pk": 13, 
+        "model": "recipes.ingredient", 
+        "fields": {
+            "multiplier": 1, 
+            "recipe": 2, 
+            "preparation": "", 
+            "item": 12, 
+            "amount": "5", 
+            "measurement": 1, 
+            "order": 6
+        }
+    }, 
+    {
         "pk": 5, 
         "model": "recipes.ingredient", 
         "fields": {
@@ -174,6 +368,110 @@
             "amount": "2", 
             "measurement": 1, 
             "order": 7
+        }
+    }, 
+    {
+        "pk": 14, 
+        "model": "recipes.ingredient", 
+        "fields": {
+            "multiplier": 1, 
+            "recipe": 2, 
+            "preparation": "fresh from one medium lemon", 
+            "item": 13, 
+            "amount": "1/4", 
+            "measurement": 4, 
+            "order": 7
+        }
+    }, 
+    {
+        "pk": 15, 
+        "model": "recipes.ingredient", 
+        "fields": {
+            "multiplier": 1, 
+            "recipe": 2, 
+            "preparation": "large", 
+            "item": 14, 
+            "amount": "1", 
+            "measurement": null, 
+            "order": 8
+        }
+    }, 
+    {
+        "pk": 16, 
+        "model": "recipes.ingredient", 
+        "fields": {
+            "multiplier": 1, 
+            "recipe": 2, 
+            "preparation": "", 
+            "item": 6, 
+            "amount": "1", 
+            "measurement": null, 
+            "order": 9
+        }
+    }, 
+    {
+        "pk": 17, 
+        "model": "recipes.ingredient", 
+        "fields": {
+            "multiplier": 1, 
+            "recipe": 2, 
+            "preparation": "chopped fresh", 
+            "item": 15, 
+            "amount": "2", 
+            "measurement": 1, 
+            "order": 10
+        }
+    }, 
+    {
+        "pk": 18, 
+        "model": "recipes.ingredient", 
+        "fields": {
+            "multiplier": 1, 
+            "recipe": 2, 
+            "preparation": "chopped fresh", 
+            "item": 16, 
+            "amount": "2", 
+            "measurement": 1, 
+            "order": 11
+        }
+    }, 
+    {
+        "pk": 19, 
+        "model": "recipes.ingredient", 
+        "fields": {
+            "multiplier": 1, 
+            "recipe": 2, 
+            "preparation": "thinly sliced", 
+            "item": 17, 
+            "amount": "1/4", 
+            "measurement": null, 
+            "order": 12
+        }
+    }, 
+    {
+        "pk": 20, 
+        "model": "recipes.ingredient", 
+        "fields": {
+            "multiplier": 1, 
+            "recipe": 2, 
+            "preparation": "medium, thinly sliced", 
+            "item": 18, 
+            "amount": "1", 
+            "measurement": null, 
+            "order": 13
+        }
+    }, 
+    {
+        "pk": 21, 
+        "model": "recipes.ingredient", 
+        "fields": {
+            "multiplier": 1, 
+            "recipe": 2, 
+            "preparation": "or other hot sauce", 
+            "item": 19, 
+            "amount": "1", 
+            "measurement": null, 
+            "order": 14
         }
     }
 ]
