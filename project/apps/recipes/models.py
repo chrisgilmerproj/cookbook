@@ -60,7 +60,7 @@ class Ingredient(models.Model):
     amount = models.CharField(max_length=20, default="1")
     measurement = models.ForeignKey(Measurement, blank=True, null=True)
     item = models.ForeignKey(Item)
-    preparation = models.CharField(max_length=50, blank=True, help_text="Short prep instruction")
+    preparation = models.CharField(max_length=100, blank=True, help_text="Short prep instruction")
     optional = models.BooleanField(default=False)
 
     class Meta:

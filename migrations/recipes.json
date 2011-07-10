@@ -42,10 +42,31 @@
         }
     }, 
     {
-        "pk": 22, 
+        "pk": 48, 
         "model": "recipes.item", 
         "fields": {
-            "name": "anchovy fillet"
+            "name": "avocado"
+        }
+    }, 
+    {
+        "pk": 47, 
+        "model": "recipes.item", 
+        "fields": {
+            "name": "bell pepper, yellow"
+        }
+    }, 
+    {
+        "pk": 42, 
+        "model": "recipes.item", 
+        "fields": {
+            "name": "canola oil"
+        }
+    }, 
+    {
+        "pk": 39, 
+        "model": "recipes.item", 
+        "fields": {
+            "name": "cheese, goat"
         }
     }, 
     {
@@ -70,6 +91,20 @@
         }
     }, 
     {
+        "pk": 43, 
+        "model": "recipes.item", 
+        "fields": {
+            "name": "cointreau"
+        }
+    }, 
+    {
+        "pk": 33, 
+        "model": "recipes.item", 
+        "fields": {
+            "name": "cream, heavy"
+        }
+    }, 
+    {
         "pk": 17, 
         "model": "recipes.item", 
         "fields": {
@@ -91,6 +126,20 @@
         }
     }, 
     {
+        "pk": 22, 
+        "model": "recipes.item", 
+        "fields": {
+            "name": "fish, anchovy fillet"
+        }
+    }, 
+    {
+        "pk": 4, 
+        "model": "recipes.item", 
+        "fields": {
+            "name": "fish, salmon fillet"
+        }
+    }, 
+    {
         "pk": 28, 
         "model": "recipes.item", 
         "fields": {
@@ -102,6 +151,13 @@
         "model": "recipes.item", 
         "fields": {
             "name": "flour, whole-wheat"
+        }
+    }, 
+    {
+        "pk": 34, 
+        "model": "recipes.item", 
+        "fields": {
+            "name": "fresh chives"
         }
     }, 
     {
@@ -126,6 +182,13 @@
         }
     }, 
     {
+        "pk": 35, 
+        "model": "recipes.item", 
+        "fields": {
+            "name": "haricots verts"
+        }
+    }, 
+    {
         "pk": 19, 
         "model": "recipes.item", 
         "fields": {
@@ -137,6 +200,20 @@
         "model": "recipes.item", 
         "fields": {
             "name": "honey"
+        }
+    }, 
+    {
+        "pk": 50, 
+        "model": "recipes.item", 
+        "fields": {
+            "name": "jalapeno"
+        }
+    }, 
+    {
+        "pk": 30, 
+        "model": "recipes.item", 
+        "fields": {
+            "name": "leeks"
         }
     }, 
     {
@@ -154,6 +231,20 @@
         }
     }, 
     {
+        "pk": 40, 
+        "model": "recipes.item", 
+        "fields": {
+            "name": "lime"
+        }
+    }, 
+    {
+        "pk": 32, 
+        "model": "recipes.item", 
+        "fields": {
+            "name": "milk, whole"
+        }
+    }, 
+    {
         "pk": 24, 
         "model": "recipes.item", 
         "fields": {
@@ -165,6 +256,13 @@
         "model": "recipes.item", 
         "fields": {
             "name": "olive oil, extra-virgin"
+        }
+    }, 
+    {
+        "pk": 49, 
+        "model": "recipes.item", 
+        "fields": {
+            "name": "onion, red"
         }
     }, 
     {
@@ -189,10 +287,24 @@
         }
     }, 
     {
+        "pk": 31, 
+        "model": "recipes.item", 
+        "fields": {
+            "name": "potatoes, yukon gold"
+        }
+    }, 
+    {
         "pk": 21, 
         "model": "recipes.item", 
         "fields": {
             "name": "radicchio"
+        }
+    }, 
+    {
+        "pk": 44, 
+        "model": "recipes.item", 
+        "fields": {
+            "name": "red pepper flakes"
         }
     }, 
     {
@@ -203,17 +315,24 @@
         }
     }, 
     {
-        "pk": 4, 
-        "model": "recipes.item", 
-        "fields": {
-            "name": "salmon fillet"
-        }
-    }, 
-    {
         "pk": 6, 
         "model": "recipes.item", 
         "fields": {
             "name": "salt, kosher"
+        }
+    }, 
+    {
+        "pk": 36, 
+        "model": "recipes.item", 
+        "fields": {
+            "name": "shallots"
+        }
+    }, 
+    {
+        "pk": 45, 
+        "model": "recipes.item", 
+        "fields": {
+            "name": "skirt steak"
         }
     }, 
     {
@@ -231,6 +350,20 @@
         }
     }, 
     {
+        "pk": 41, 
+        "model": "recipes.item", 
+        "fields": {
+            "name": "tequila"
+        }
+    }, 
+    {
+        "pk": 46, 
+        "model": "recipes.item", 
+        "fields": {
+            "name": "tomatillos"
+        }
+    }, 
+    {
         "pk": 18, 
         "model": "recipes.item", 
         "fields": {
@@ -245,13 +378,27 @@
         }
     }, 
     {
+        "pk": 38, 
+        "model": "recipes.item", 
+        "fields": {
+            "name": "walnut oil"
+        }
+    }, 
+    {
+        "pk": 37, 
+        "model": "recipes.item", 
+        "fields": {
+            "name": "walnuts"
+        }
+    }, 
+    {
         "pk": 1, 
         "model": "recipes.recipe", 
         "fields": {
             "name": "Cedar-Planked Lemon-Pepper Salmon", 
             "equipment": "2 15x7-inch untreated cedar planks", 
             "leftovers": true, 
-            "tags": "fish, grilled", 
+            "tags": "fish, grilled, dinner", 
             "serves": 4, 
             "source_url": "http://www.finecooking.com/recipes/cedar-planked-lemon-pepper-salmon-horseradish-sauce.aspx", 
             "source": "Fine Cooking 111, Page 57", 
@@ -259,6 +406,23 @@
             "time": "1 hour", 
             "slug": "cedar-planked-lemon-pepper-salmon", 
             "instructions": "Tip: If you want to serve both salmon fillets for 8 people, double the sauce recipe.\r\n\r\nSoak the cedar planks in water to cover for at least 1 hour. Drain the planks.\r\n\r\nPrepare the sauce\r\nIn a small bowl, stir the cr\u00e8me fra\u00eeche, chives, and horseradish. Season to taste with salt and pepper. Refrigerate.\r\n\r\nPrepare the salmon\r\nIn a small bowl, combine the lemon zest, thyme, sugar, 1 1/2 tsp. salt, and 1 Tbs. pepper. Rub the mixture together with your fingers until the zest is distributed throughout. Rub the salmon fillets on both sides with the olive oil and then set each fillet skin side down on a plank. Sprinkle the fillets with the lemon-pepper mixture, dividing it evenly. Gently rub the seasoning into the fillets. Let stand at room temperature while the grill heats.\r\n\r\nCook the salmon\r\nPrepare a gas or charcoal grill fire for indirect cooking with high heat: On a gas grill, heat all burners on high; then turn off all but one burner just before cooking the salmon; on a charcoal grill, bank the coals to two opposite sides of the grill. Arrange the planks over the cooler part of the grill, positioning them so that the thickest part of the fish is closest to the heat source. Cover the grill and cook until the thickest part of each fillet registers about 135\u00b0F on an instant-read thermometer, 20 to 35 minutes depending on the thickness of the fillets. The planks may smoke a bit (this is fine) and will become very aromatic. Let the fillets rest on the planks for 5 to 10 minutes before serving.\r\n\r\nCut the salmon fillets crosswise into serving portions and transfer to individual plates. Serve with the sauce.\r\n\r\nmake ahead tips\r\n\r\nThe sauce may be made up to 1 day ahead, and refrigerated, covered.\r\nserving suggestions\r\n\r\nTo round out your Sunday supper, serve this dish with Peas and Carrots with Lemon, Dill, and Mint.\r\n\r\nleftovers\r\n\r\nCool any leftover salmon completely, wrap well, and refrigerate for up to 3 days."
+        }
+    }, 
+    {
+        "pk": 8, 
+        "model": "recipes.recipe", 
+        "fields": {
+            "name": "Classic Vichyssoise", 
+            "equipment": "", 
+            "leftovers": false, 
+            "tags": "dinner, soup", 
+            "serves": 1, 
+            "source_url": "http://www.finecooking.com/recipes/classic-vichyssoise.aspx", 
+            "source": "Fine Cooking 099, page 27", 
+            "health": "nutrition information (per serving):\r\nCalories (kcal): 300; Fat (g): 18; Fat Calories (kcal): 160; Saturated Fat (g): 11; Protein (g): 7; Monounsaturated Fat (g): 5; Carbohydrates (g): 30; Polyunsaturated Fat (g): 1; Sodium (mg): 210; Cholesterol (mg): 65; Fiber (g): 2;", 
+            "time": "", 
+            "slug": "classic-vichyssoise", 
+            "instructions": "Combine the leeks, potatoes, milk, and 2 cups water in a 4-quart pot.\r\n\r\nBring to a simmer over medium-high heat. Add 1-1/2 tsp. salt, reduce the heat to medium low, and simmer until a potato slice falls apart when you poke it with a fork, about 20 minutes. Remove from the heat, stir in the cream, and let cool briefly.\r\n\r\nPur\u00e9e the soup, preferably using a regular blender and working in batches, filling it only half way each time.\r\n\r\nStrain the pur\u00e9ed soup through a fine sieve. Let cool to room temperature, stirring occasionally (stirring prevents a skin from forming), and then refrigerate until thoroughly chilled.\r\n\r\nBefore serving, thin the soup with water if necessary\u2014it should be the consistency of heavy cream. Season to taste with salt. Serve cold in chilled bowls, garnished with the chives."
         }
     }, 
     {
@@ -310,6 +474,57 @@
             "time": "", 
             "slug": "grilled-radicchio-and-romaine-salad", 
             "instructions": "Prepare a medium-high gas or charcoal grill fire, or heat a grill pan over medium-high heat until hot.\r\n\r\nCut the romaine and radicchio in half through the root ends. Rinse the leaves and dry well.\r\n\r\nPour the oil into a large baking dish. Dip the lettuces cut side down in the oil, swirling to coat well; then place them cut side down on the grill. Grill, covered, without turning, until charred and wilted in spots, about 4 minutes. Transfer to a cutting board. Remove the cores and chop the lettuce into bite-size pieces.\r\n\r\nPress the garlic and the anchovy through a garlic press into a large salad bowl (or mince by hand). Whisk in the vinegar, mustard, and 1/2 tsp. each salt and pepper. Transfer the lettuces and any juice from the cutting board to the salad bowl. Add the cheese and toss well."
+        }
+    }, 
+    {
+        "pk": 5, 
+        "model": "recipes.recipe", 
+        "fields": {
+            "name": "Haricots Verts with Toasted Walnuts and Ch\u00e8vre", 
+            "equipment": "", 
+            "leftovers": false, 
+            "tags": "salad, dinner", 
+            "serves": 1, 
+            "source_url": "http://www.finecooking.com/recipes/haricots-verts-toasted-walnuts-chevre.aspx", 
+            "source": "Fine Cooking 099, page 43", 
+            "health": "nutrition information (per serving):\r\nCalories (kcal): 180; Fat (g): 15; Fat Calories (kcal): 130; Saturated Fat (g): 3.5; Protein (g): 6; Monounsaturated Fat (g): 4.5; Carbohydrates (g): 8; Polyunsaturated Fat (g): 7; Sodium (mg): 340; Cholesterol (mg): 5; Fiber (g): 3;", 
+            "time": "", 
+            "slug": "haricots-verts-with-toasted-walnuts-and-chevre", 
+            "instructions": "Bring a medium pot of well-salted water to a boil. Cook the beans in the water until tender, 2 to 3 minutes. Drain and run under cold water to cool. Drain well.\r\n\r\nHeat the olive oil in a 12-inch skillet over medium-high heat. Add the shallots and cook, stirring, until they begin to brown, about 30 seconds. Stir in the walnuts. Add the walnut oil and the beans and cook, stirring to heat through, 2 to 3 minutes. Season to taste with salt and pepper and transfer the beans to a serving dish. Sprinkle the goat cheese over the top and serve."
+        }
+    }, 
+    {
+        "pk": 6, 
+        "model": "recipes.recipe", 
+        "fields": {
+            "name": "Margarita-Marinated Grilled Skirt Steak with Tomatillo Salsa", 
+            "equipment": "", 
+            "leftovers": false, 
+            "tags": "dinner, grilled", 
+            "serves": 1, 
+            "source_url": "http://www.finecooking.com/recipes/margarita-marinated-skirt-steak-grilled-tomatillo-salsa.aspx", 
+            "source": "Fine Cooking 100, page 16", 
+            "health": "nutrition information (per serving):\r\nCalories (kcal): 380; Fat (g): 22; Fat Calories (kcal): 200; Saturated Fat (g): 6; Protein (g): 33; Monounsaturated Fat (g): 12; Carbohydrates (g): 9; Polyunsaturated Fat (g): 2.5; Sodium (mg): 290; Cholesterol (mg): 85; Fiber (g): 3;", 
+            "time": "", 
+            "slug": "margarita-marinated-grilled-skirt-steak-with-tomatillo-salsa", 
+            "instructions": "Marinate the steak:\r\nFinely grate the zest from 1 lime and put it in a 9x13-inch baking dish. Finely grate 1 tsp. zest from the second lime and set aside for the salsa. Juice the limes. Add 1/4 cup juice to the zest in the baking dish and mix 1 tsp. juice into the zest for the salsa.\r\n\r\nTo the baking dish, add the tequila, oil, cilantro, Cointreau, garlic, and pepper flakes; whisk to combine. Season the steak all over with 1/2 tsp. salt. Add it to the marinade and turn to coat. Cover with plastic wrap and refrigerate for 2 hours, turning the steak after 1 hour.\r\n\r\nMake the salsa:\r\nPrepare a medium gas or charcoal grill fire. Scrub the grill grate with a wire brush and then wipe clean with a paper towel dipped in oil.\r\n\r\nRub the tomatillos and yellow pepper all over with the 1 Tbs. oil and season with 1/2 tsp. salt. Grill the tomatillos, turning occasionally, until they have good grill marks and are starting to collapse, about 6 minutes. Grill the pepper, turning occasionally, until charred all over, 8 to 10 minutes. Transfer the tomatillos to a plate and let cool. Put the pepper in a small bowl and cover with plastic wrap. Let sit until cool enough to handle.\r\n\r\nRoughly chop the tomatillos and put them in a medium bowl. Peel the skin from the pepper, remove the seeds, and cut into small dice. Add the pepper to the tomatillos along with the avocado, onion, cilantro, jalape\u00f1o, and the reserved lime zest and juice. Season to taste with salt and pepper.\r\n\r\nGrill the steak:\r\nRemove the steak from the marinade and pat it dry. Clean and oil the grill grates again. Grill the steak, covered, over medium heat until brown grill marks form on one side, about 5 minutes. Flip and cook until medium rare (130\u00b0F on an instant-read thermometer), 4 to 5 minutes more. Transfer to a cutting board and let rest for 5 minutes. Cut each steak crosswise into 2 or 3 pieces, and then thinly slice across the grain. Serve with the salsa on the side.\r\n\r\nmake ahead tips\r\n\r\nThe salsa may be prepared up to 2 hours ahead. \r\nserving suggestions\r\n\r\nServe with a Black Bean and Corn Salad and a Fresh Cherry Margarita to drink."
+        }
+    }, 
+    {
+        "pk": 7, 
+        "model": "recipes.recipe", 
+        "fields": {
+            "name": "stir", 
+            "equipment": "", 
+            "leftovers": false, 
+            "tags": "", 
+            "serves": 1, 
+            "source_url": "", 
+            "source": "105 63", 
+            "health": "", 
+            "time": "", 
+            "slug": "stir", 
+            "instructions": "gg"
         }
     }, 
     {
@@ -369,6 +584,48 @@
         }
     }, 
     {
+        "pk": 38, 
+        "model": "recipes.ingredient", 
+        "fields": {
+            "multiplier": 4, 
+            "recipe": 8, 
+            "preparation": "medium size, trimmed and washed as directed opposite, sliced 1/8 inch thick (about 3 cups)", 
+            "item": 30, 
+            "amount": "4", 
+            "measurement": 4, 
+            "optional": false, 
+            "order": 1
+        }
+    }, 
+    {
+        "pk": 44, 
+        "model": "recipes.ingredient", 
+        "fields": {
+            "multiplier": 1, 
+            "recipe": 5, 
+            "preparation": "", 
+            "item": 6, 
+            "amount": "1", 
+            "measurement": null, 
+            "optional": false, 
+            "order": 1
+        }
+    }, 
+    {
+        "pk": 52, 
+        "model": "recipes.ingredient", 
+        "fields": {
+            "multiplier": 1, 
+            "recipe": 6, 
+            "preparation": "", 
+            "item": 40, 
+            "amount": "2", 
+            "measurement": null, 
+            "optional": false, 
+            "order": 1
+        }
+    }, 
+    {
         "pk": 2, 
         "model": "recipes.ingredient", 
         "fields": {
@@ -388,7 +645,7 @@
         "fields": {
             "multiplier": 4, 
             "recipe": 2, 
-            "preparation": "medium size", 
+            "preparation": "medium", 
             "item": 8, 
             "amount": "1", 
             "measurement": null, 
@@ -420,6 +677,48 @@
             "item": 27, 
             "amount": "2", 
             "measurement": 2, 
+            "optional": false, 
+            "order": 2
+        }
+    }, 
+    {
+        "pk": 39, 
+        "model": "recipes.ingredient", 
+        "fields": {
+            "multiplier": 2, 
+            "recipe": 8, 
+            "preparation": "large, peeled and sliced 1/8 inch thick (about 4 cups)", 
+            "item": 31, 
+            "amount": "4", 
+            "measurement": 4, 
+            "optional": false, 
+            "order": 2
+        }
+    }, 
+    {
+        "pk": 45, 
+        "model": "recipes.ingredient", 
+        "fields": {
+            "multiplier": 1, 
+            "recipe": 5, 
+            "preparation": "(green, yellow, or both), trimmed", 
+            "item": 35, 
+            "amount": "3/4", 
+            "measurement": 3, 
+            "optional": false, 
+            "order": 2
+        }
+    }, 
+    {
+        "pk": 53, 
+        "model": "recipes.ingredient", 
+        "fields": {
+            "multiplier": 1, 
+            "recipe": 6, 
+            "preparation": "", 
+            "item": 41, 
+            "amount": "1/3", 
+            "measurement": 4, 
             "optional": false, 
             "order": 2
         }
@@ -475,6 +774,48 @@
             "preparation": "more as needed", 
             "item": 28, 
             "amount": "3-1/2", 
+            "measurement": 4, 
+            "optional": false, 
+            "order": 3
+        }
+    }, 
+    {
+        "pk": 40, 
+        "model": "recipes.ingredient", 
+        "fields": {
+            "multiplier": 1, 
+            "recipe": 8, 
+            "preparation": "", 
+            "item": 32, 
+            "amount": "2", 
+            "measurement": 4, 
+            "optional": false, 
+            "order": 3
+        }
+    }, 
+    {
+        "pk": 46, 
+        "model": "recipes.ingredient", 
+        "fields": {
+            "multiplier": 1, 
+            "recipe": 5, 
+            "preparation": "", 
+            "item": 5, 
+            "amount": "1", 
+            "measurement": 1, 
+            "optional": false, 
+            "order": 3
+        }
+    }, 
+    {
+        "pk": 54, 
+        "model": "recipes.ingredient", 
+        "fields": {
+            "multiplier": 1, 
+            "recipe": 6, 
+            "preparation": "", 
+            "item": 42, 
+            "amount": "1/4", 
             "measurement": 4, 
             "optional": false, 
             "order": 3
@@ -537,6 +878,48 @@
         }
     }, 
     {
+        "pk": 41, 
+        "model": "recipes.ingredient", 
+        "fields": {
+            "multiplier": 1, 
+            "recipe": 8, 
+            "preparation": "", 
+            "item": 6, 
+            "amount": "1", 
+            "measurement": null, 
+            "optional": false, 
+            "order": 4
+        }
+    }, 
+    {
+        "pk": 47, 
+        "model": "recipes.ingredient", 
+        "fields": {
+            "multiplier": 1, 
+            "recipe": 5, 
+            "preparation": "minced", 
+            "item": 36, 
+            "amount": "2", 
+            "measurement": 1, 
+            "optional": false, 
+            "order": 4
+        }
+    }, 
+    {
+        "pk": 55, 
+        "model": "recipes.ingredient", 
+        "fields": {
+            "multiplier": 1, 
+            "recipe": 6, 
+            "preparation": "chopped fresh", 
+            "item": 16, 
+            "amount": "2", 
+            "measurement": 1, 
+            "optional": false, 
+            "order": 4
+        }
+    }, 
+    {
         "pk": 7, 
         "model": "recipes.ingredient", 
         "fields": {
@@ -588,6 +971,48 @@
             "item": 6, 
             "amount": "1-1/2", 
             "measurement": 2, 
+            "optional": false, 
+            "order": 5
+        }
+    }, 
+    {
+        "pk": 42, 
+        "model": "recipes.ingredient", 
+        "fields": {
+            "multiplier": 1, 
+            "recipe": 8, 
+            "preparation": "", 
+            "item": 33, 
+            "amount": "1", 
+            "measurement": 4, 
+            "optional": false, 
+            "order": 5
+        }
+    }, 
+    {
+        "pk": 48, 
+        "model": "recipes.ingredient", 
+        "fields": {
+            "multiplier": 1, 
+            "recipe": 5, 
+            "preparation": "lightly toasted and chopped", 
+            "item": 37, 
+            "amount": "1/3", 
+            "measurement": 4, 
+            "optional": false, 
+            "order": 5
+        }
+    }, 
+    {
+        "pk": 56, 
+        "model": "recipes.ingredient", 
+        "fields": {
+            "multiplier": 1, 
+            "recipe": 6, 
+            "preparation": "", 
+            "item": 43, 
+            "amount": "1", 
+            "measurement": 1, 
             "optional": false, 
             "order": 5
         }
@@ -649,6 +1074,48 @@
         }
     }, 
     {
+        "pk": 43, 
+        "model": "recipes.ingredient", 
+        "fields": {
+            "multiplier": 1, 
+            "recipe": 8, 
+            "preparation": "thinly sliced, for garnish", 
+            "item": 34, 
+            "amount": "1", 
+            "measurement": null, 
+            "optional": false, 
+            "order": 6
+        }
+    }, 
+    {
+        "pk": 49, 
+        "model": "recipes.ingredient", 
+        "fields": {
+            "multiplier": 1, 
+            "recipe": 5, 
+            "preparation": "", 
+            "item": 38, 
+            "amount": "2", 
+            "measurement": 2, 
+            "optional": false, 
+            "order": 6
+        }
+    }, 
+    {
+        "pk": 57, 
+        "model": "recipes.ingredient", 
+        "fields": {
+            "multiplier": 2, 
+            "recipe": 6, 
+            "preparation": "medium, minced", 
+            "item": 8, 
+            "amount": "1", 
+            "measurement": null, 
+            "optional": false, 
+            "order": 6
+        }
+    }, 
+    {
         "pk": 5, 
         "model": "recipes.ingredient", 
         "fields": {
@@ -691,6 +1158,34 @@
         }
     }, 
     {
+        "pk": 50, 
+        "model": "recipes.ingredient", 
+        "fields": {
+            "multiplier": 1, 
+            "recipe": 5, 
+            "preparation": "freshly ground", 
+            "item": 7, 
+            "amount": "1", 
+            "measurement": null, 
+            "optional": false, 
+            "order": 7
+        }
+    }, 
+    {
+        "pk": 58, 
+        "model": "recipes.ingredient", 
+        "fields": {
+            "multiplier": 1, 
+            "recipe": 6, 
+            "preparation": "crushed", 
+            "item": 44, 
+            "amount": "1/8", 
+            "measurement": 2, 
+            "optional": false, 
+            "order": 7
+        }
+    }, 
+    {
         "pk": 15, 
         "model": "recipes.ingredient", 
         "fields": {
@@ -719,6 +1214,34 @@
         }
     }, 
     {
+        "pk": 51, 
+        "model": "recipes.ingredient", 
+        "fields": {
+            "multiplier": 1, 
+            "recipe": 5, 
+            "preparation": "fresh, crumbled (2/3 cup)", 
+            "item": 39, 
+            "amount": "2", 
+            "measurement": 6, 
+            "optional": false, 
+            "order": 8
+        }
+    }, 
+    {
+        "pk": 59, 
+        "model": "recipes.ingredient", 
+        "fields": {
+            "multiplier": 1, 
+            "recipe": 6, 
+            "preparation": "", 
+            "item": 45, 
+            "amount": "2", 
+            "measurement": 3, 
+            "optional": false, 
+            "order": 8
+        }
+    }, 
+    {
         "pk": 16, 
         "model": "recipes.ingredient", 
         "fields": {
@@ -740,6 +1263,20 @@
             "recipe": 3, 
             "preparation": "freshly ground", 
             "item": 7, 
+            "amount": "1", 
+            "measurement": null, 
+            "optional": false, 
+            "order": 9
+        }
+    }, 
+    {
+        "pk": 60, 
+        "model": "recipes.ingredient", 
+        "fields": {
+            "multiplier": 1, 
+            "recipe": 6, 
+            "preparation": "", 
+            "item": 6, 
             "amount": "1", 
             "measurement": null, 
             "optional": false, 
@@ -775,6 +1312,20 @@
         }
     }, 
     {
+        "pk": 61, 
+        "model": "recipes.ingredient", 
+        "fields": {
+            "multiplier": 1, 
+            "recipe": 6, 
+            "preparation": "more for the grill", 
+            "item": 5, 
+            "amount": "1", 
+            "measurement": 1, 
+            "optional": false, 
+            "order": 10
+        }
+    }, 
+    {
         "pk": 18, 
         "model": "recipes.ingredient", 
         "fields": {
@@ -789,6 +1340,20 @@
         }
     }, 
     {
+        "pk": 62, 
+        "model": "recipes.ingredient", 
+        "fields": {
+            "multiplier": 1, 
+            "recipe": 6, 
+            "preparation": "(10 to 15) husked and rinsed", 
+            "item": 46, 
+            "amount": "1", 
+            "measurement": 3, 
+            "optional": false, 
+            "order": 11
+        }
+    }, 
+    {
         "pk": 19, 
         "model": "recipes.ingredient", 
         "fields": {
@@ -797,6 +1362,20 @@
             "preparation": "thinly sliced", 
             "item": 17, 
             "amount": "1/4", 
+            "measurement": null, 
+            "optional": false, 
+            "order": 12
+        }
+    }, 
+    {
+        "pk": 63, 
+        "model": "recipes.ingredient", 
+        "fields": {
+            "multiplier": 1, 
+            "recipe": 6, 
+            "preparation": "medium", 
+            "item": 47, 
+            "amount": "1", 
             "measurement": null, 
             "optional": false, 
             "order": 12
@@ -817,6 +1396,20 @@
         }
     }, 
     {
+        "pk": 64, 
+        "model": "recipes.ingredient", 
+        "fields": {
+            "multiplier": 1, 
+            "recipe": 6, 
+            "preparation": "", 
+            "item": 6, 
+            "amount": "1", 
+            "measurement": null, 
+            "optional": false, 
+            "order": 13
+        }
+    }, 
+    {
         "pk": 21, 
         "model": "recipes.ingredient", 
         "fields": {
@@ -828,6 +1421,76 @@
             "measurement": null, 
             "optional": true, 
             "order": 14
+        }
+    }, 
+    {
+        "pk": 65, 
+        "model": "recipes.ingredient", 
+        "fields": {
+            "multiplier": 1, 
+            "recipe": 6, 
+            "preparation": "medium, ripe, diced", 
+            "item": 48, 
+            "amount": "1/2", 
+            "measurement": null, 
+            "optional": false, 
+            "order": 14
+        }
+    }, 
+    {
+        "pk": 66, 
+        "model": "recipes.ingredient", 
+        "fields": {
+            "multiplier": 1, 
+            "recipe": 6, 
+            "preparation": "minced", 
+            "item": 49, 
+            "amount": "2", 
+            "measurement": 1, 
+            "optional": false, 
+            "order": 15
+        }
+    }, 
+    {
+        "pk": 67, 
+        "model": "recipes.ingredient", 
+        "fields": {
+            "multiplier": 1, 
+            "recipe": 6, 
+            "preparation": "fresh, chopped", 
+            "item": 16, 
+            "amount": "1", 
+            "measurement": 1, 
+            "optional": false, 
+            "order": 16
+        }
+    }, 
+    {
+        "pk": 68, 
+        "model": "recipes.ingredient", 
+        "fields": {
+            "multiplier": 1, 
+            "recipe": 6, 
+            "preparation": "seeded and minced", 
+            "item": 50, 
+            "amount": "1", 
+            "measurement": null, 
+            "optional": false, 
+            "order": 17
+        }
+    }, 
+    {
+        "pk": 69, 
+        "model": "recipes.ingredient", 
+        "fields": {
+            "multiplier": 1, 
+            "recipe": 6, 
+            "preparation": "freshly ground", 
+            "item": 7, 
+            "amount": "1", 
+            "measurement": null, 
+            "optional": false, 
+            "order": 18
         }
     }
 ]

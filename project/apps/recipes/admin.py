@@ -22,7 +22,7 @@ class RecipeAdmin(admin.ModelAdmin):
             'name','time','serves','leftovers','source','source_url','tags'
         ]}),
         (None, {'fields': [
-            'equipment','instructions','health',
+            'instructions','health','equipment',
         ]}),
     )
     inlines = [IngredientInline,]

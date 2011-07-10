@@ -39,8 +39,10 @@ def recipe_random(request):
 
     count = int(request.GET.get('count',6))
     tag = request.GET.get('tag',None)
-
-    recipes = Recipe.objects.filter(tags__icontains=tag)
+    if tag:
+        recipes = Recipe.objects.filter(tags__icontains=tag)
+    else:
+        recipes = Recipe.objects.all()
     if recipes.count() < count:
         count = recipes.count()
     recipe_list = random.sample(recipes, count)
