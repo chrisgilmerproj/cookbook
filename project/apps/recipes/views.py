@@ -36,7 +36,10 @@ def recipe_detail(request, slug):
 
 def recipe_random(request):
     """ View to see list of recipes """
-    recipes = Recipe.objects.all()
+
+    tag = request.GET.get('tag',None)
+
+    recipes = Recipe.objects.filter(tags__icontains=tag)
     count = 6
     if recipes.count() < count:
         count = recipes.count()
