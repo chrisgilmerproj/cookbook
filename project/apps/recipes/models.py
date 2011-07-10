@@ -72,7 +72,11 @@ class Ingredient(models.Model):
             name += "%sx " % self.multiplier
         if self.amount != '1':
             name += "%s " % (self.amount)
+        if self.amount == '1' and self.measurement:
+            name += "%s " % (self.amount)
         if self.measurement:
             name += "%s " % (self.measurement)
         name += "%s %s" % (self.item, self.preparation)
+        if self.optional:
+            name += "*"
         return name

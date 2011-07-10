@@ -27,20 +27,9 @@
     </p>
     
     <h2>Ingredients:</h2>
-    <table>
-        <tr>
-            <th></th>
-            <th>Amount</th>
-            <th>Ingredient</th>
-        </tr>
-        {% for ingredient in recipe.ingredient_set.all %}
-        <tr>
-            <td>{% if ingredient.multiplier > 1 %}{{ ingredient.multiplier }}x{% endif%}</td>
-            <td>{{ ingredient.amount }} {{ ingredient.measurement }}</td>
-            <td>{{ ingredient.item }} {{ ingredient.preparation }}</td>
-        </tr>
-        {% endfor %}
-    </table>
+    {% with recipe.ingredient_set.all as ingredient_list %}
+    {% include "ingredient_table.html" %}
+    {% endwith %}
     
     <h2>Instructions:</h2>
     <p>

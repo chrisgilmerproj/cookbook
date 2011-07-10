@@ -35,13 +35,6 @@
         }
     }, 
     {
-        "pk": 7, 
-        "model": "recipes.item", 
-        "fields": {
-            "name": "black pepper"
-        }
-    }, 
-    {
         "pk": 11, 
         "model": "recipes.item", 
         "fields": {
@@ -70,13 +63,6 @@
         }
     }, 
     {
-        "pk": 5, 
-        "model": "recipes.item", 
-        "fields": {
-            "name": "extra-virgin olive oil"
-        }
-    }, 
-    {
         "pk": 2, 
         "model": "recipes.item", 
         "fields": {
@@ -88,13 +74,6 @@
         "model": "recipes.item", 
         "fields": {
             "name": "garlic clove"
-        }
-    }, 
-    {
-        "pk": 3, 
-        "model": "recipes.item", 
-        "fields": {
-            "name": "granulated sugar"
         }
     }, 
     {
@@ -112,13 +91,6 @@
         }
     }, 
     {
-        "pk": 6, 
-        "model": "recipes.item", 
-        "fields": {
-            "name": "kosher salt"
-        }
-    }, 
-    {
         "pk": 13, 
         "model": "recipes.item", 
         "fields": {
@@ -133,10 +105,24 @@
         }
     }, 
     {
+        "pk": 5, 
+        "model": "recipes.item", 
+        "fields": {
+            "name": "olive oil, extra-virgin"
+        }
+    }, 
+    {
         "pk": 15, 
         "model": "recipes.item", 
         "fields": {
             "name": "parsley, flat-leaf"
+        }
+    }, 
+    {
+        "pk": 7, 
+        "model": "recipes.item", 
+        "fields": {
+            "name": "pepper, black"
         }
     }, 
     {
@@ -151,6 +137,20 @@
         "model": "recipes.item", 
         "fields": {
             "name": "salmon fillet"
+        }
+    }, 
+    {
+        "pk": 6, 
+        "model": "recipes.item", 
+        "fields": {
+            "name": "salt, kosher"
+        }
+    }, 
+    {
+        "pk": 3, 
+        "model": "recipes.item", 
+        "fields": {
+            "name": "sugar, granulated"
         }
     }, 
     {
@@ -491,7 +491,7 @@
             "item": 19, 
             "amount": "1", 
             "measurement": null, 
-            "optional": false, 
+            "optional": true, 
             "order": 14
         }
     }
