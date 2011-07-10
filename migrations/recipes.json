@@ -211,6 +211,7 @@
             "item": 1, 
             "amount": "1", 
             "measurement": 1, 
+            "optional": false, 
             "order": 1
         }
     }, 
@@ -224,6 +225,7 @@
             "item": 5, 
             "amount": "1/4", 
             "measurement": 4, 
+            "optional": false, 
             "order": 1
         }
     }, 
@@ -237,6 +239,7 @@
             "item": 2, 
             "amount": "1-1/2", 
             "measurement": 2, 
+            "optional": false, 
             "order": 2
         }
     }, 
@@ -250,6 +253,7 @@
             "item": 8, 
             "amount": "1", 
             "measurement": null, 
+            "optional": false, 
             "order": 2
         }
     }, 
@@ -263,6 +267,7 @@
             "item": 3, 
             "amount": "1/2", 
             "measurement": 2, 
+            "optional": false, 
             "order": 3
         }
     }, 
@@ -276,6 +281,7 @@
             "item": 9, 
             "amount": "2", 
             "measurement": 2, 
+            "optional": false, 
             "order": 3
         }
     }, 
@@ -289,6 +295,7 @@
             "item": 6, 
             "amount": "1-1/2", 
             "measurement": 2, 
+            "optional": false, 
             "order": 4
         }
     }, 
@@ -302,6 +309,7 @@
             "item": 10, 
             "amount": "1", 
             "measurement": null, 
+            "optional": false, 
             "order": 4
         }
     }, 
@@ -315,6 +323,7 @@
             "item": 7, 
             "amount": "1", 
             "measurement": 1, 
+            "optional": false, 
             "order": 5
         }
     }, 
@@ -328,6 +337,7 @@
             "item": 11, 
             "amount": "15.5-oz", 
             "measurement": 5, 
+            "optional": false, 
             "order": 5
         }
     }, 
@@ -341,6 +351,7 @@
             "item": 4, 
             "amount": "2", 
             "measurement": 3, 
+            "optional": false, 
             "order": 6
         }
     }, 
@@ -354,6 +365,7 @@
             "item": 12, 
             "amount": "5", 
             "measurement": 1, 
+            "optional": false, 
             "order": 6
         }
     }, 
@@ -367,6 +379,7 @@
             "item": 5, 
             "amount": "2", 
             "measurement": 1, 
+            "optional": false, 
             "order": 7
         }
     }, 
@@ -380,6 +393,7 @@
             "item": 13, 
             "amount": "1/4", 
             "measurement": 4, 
+            "optional": false, 
             "order": 7
         }
     }, 
@@ -393,6 +407,7 @@
             "item": 14, 
             "amount": "1", 
             "measurement": null, 
+            "optional": false, 
             "order": 8
         }
     }, 
@@ -406,6 +421,7 @@
             "item": 6, 
             "amount": "1", 
             "measurement": null, 
+            "optional": false, 
             "order": 9
         }
     }, 
@@ -419,6 +435,7 @@
             "item": 15, 
             "amount": "2", 
             "measurement": 1, 
+            "optional": false, 
             "order": 10
         }
     }, 
@@ -432,6 +449,7 @@
             "item": 16, 
             "amount": "2", 
             "measurement": 1, 
+            "optional": false, 
             "order": 11
         }
     }, 
@@ -445,6 +463,7 @@
             "item": 17, 
             "amount": "1/4", 
             "measurement": null, 
+            "optional": false, 
             "order": 12
         }
     }, 
@@ -458,6 +477,7 @@
             "item": 18, 
             "amount": "1", 
             "measurement": null, 
+            "optional": false, 
             "order": 13
         }
     }, 
@@ -471,6 +491,7 @@
             "item": 19, 
             "amount": "1", 
             "measurement": null, 
+            "optional": false, 
             "order": 14
         }
     }
