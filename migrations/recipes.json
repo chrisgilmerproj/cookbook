@@ -21,6 +21,13 @@
         }
     }, 
     {
+        "pk": 7, 
+        "model": "recipes.measurement", 
+        "fields": {
+            "name": "inch"
+        }
+    }, 
+    {
         "pk": 3, 
         "model": "recipes.measurement", 
         "fields": {
@@ -42,6 +49,13 @@
         }
     }, 
     {
+        "pk": 55, 
+        "model": "recipes.item", 
+        "fields": {
+            "name": "asian sesame oil"
+        }
+    }, 
+    {
         "pk": 48, 
         "model": "recipes.item", 
         "fields": {
@@ -53,6 +67,20 @@
         "model": "recipes.item", 
         "fields": {
             "name": "bell pepper, yellow"
+        }
+    }, 
+    {
+        "pk": 51, 
+        "model": "recipes.item", 
+        "fields": {
+            "name": "bok choy"
+        }
+    }, 
+    {
+        "pk": 53, 
+        "model": "recipes.item", 
+        "fields": {
+            "name": "broth, chicken low-salt"
         }
     }, 
     {
@@ -95,6 +123,13 @@
         "model": "recipes.item", 
         "fields": {
             "name": "cointreau"
+        }
+    }, 
+    {
+        "pk": 54, 
+        "model": "recipes.item", 
+        "fields": {
+            "name": "cornstarch"
         }
     }, 
     {
@@ -172,6 +207,13 @@
         "model": "recipes.item", 
         "fields": {
             "name": "garlic clove"
+        }
+    }, 
+    {
+        "pk": 58, 
+        "model": "recipes.item", 
+        "fields": {
+            "name": "ginger"
         }
     }, 
     {
@@ -266,10 +308,24 @@
         }
     }, 
     {
+        "pk": 52, 
+        "model": "recipes.item", 
+        "fields": {
+            "name": "oyster sauce"
+        }
+    }, 
+    {
         "pk": 15, 
         "model": "recipes.item", 
         "fields": {
             "name": "parsley, flat-leaf"
+        }
+    }, 
+    {
+        "pk": 56, 
+        "model": "recipes.item", 
+        "fields": {
+            "name": "peanut oil"
         }
     }, 
     {
@@ -319,6 +375,13 @@
         "model": "recipes.item", 
         "fields": {
             "name": "salt, kosher"
+        }
+    }, 
+    {
+        "pk": 57, 
+        "model": "recipes.item", 
+        "fields": {
+            "name": "scallions"
         }
     }, 
     {
@@ -398,7 +461,7 @@
             "name": "Cedar-Planked Lemon-Pepper Salmon", 
             "equipment": "2 15x7-inch untreated cedar planks", 
             "leftovers": true, 
-            "tags": "fish, grilled, dinner", 
+            "tags": "fish, grilled", 
             "serves": 4, 
             "source_url": "http://www.finecooking.com/recipes/cedar-planked-lemon-pepper-salmon-horseradish-sauce.aspx", 
             "source": "Fine Cooking 111, Page 57", 
@@ -514,17 +577,17 @@
         "pk": 7, 
         "model": "recipes.recipe", 
         "fields": {
-            "name": "stir", 
+            "name": "Stir-Fried Bok Choy with Garlic, Ginger, and Scallions", 
             "equipment": "", 
             "leftovers": false, 
-            "tags": "", 
+            "tags": "stir-fry, dinner", 
             "serves": 1, 
-            "source_url": "", 
-            "source": "105 63", 
-            "health": "", 
+            "source_url": "http://www.finecooking.com/recipes/stir-fried-bok-choy-garlic-ginger-scallions.aspx", 
+            "source": "Fine Cooking 105, page 63", 
+            "health": "nutrition information (per serving):\r\nCalories (kcal): 100; Fat (g): 7; Fat Calories (kcal): 70; Saturated Fat (g): 1; Protein (g): 3; Monounsaturated Fat (g): 3.5; Carbohydrates (g): 7; Polyunsaturated Fat (g): 2.5; Sodium (mg): 410; Cholesterol (mg): 0; Fiber (g): 3;", 
             "time": "", 
-            "slug": "stir", 
-            "instructions": "gg"
+            "slug": "stir-fried-bok-choy-with-garlic-ginger-and-scallions", 
+            "instructions": "To prep mature bok choy, separate the leaves from the stems by slicing the bok choy head crosswise at about the point where the leaves begin to spread out. Cut the leaves into lengthwise strips 1 to 1-1/2 inches wide. Quarter the stem end lengthwise and remove any inner leaves, putting them with the leafy tops. Slice the stem quarters crosswise into pieces about 3/4 inch thick. Rinse and dry the stems and leaves separately. (If using baby bok choy, simply cut the heads lengthwise into 3/4-inch-wide pieces or wedges.)\r\n\r\nIn a small bowl, combine the oyster sauce, chicken broth, cornstarch, and sesame oil. Whisk well to dissolve the cornstarch.\r\n\r\nIn a 12-inch nonstick stir-fry pan, heat the peanut oil over medium-high heat. When the oil is hot, add the bok choy stems and season with 1/8 tsp. kosher salt. (If using baby bok choy, add all the pieces now and skip the step of adding the leaves later.) Cook, tossing frequently with tongs, until the stems are pliable and lightly browned, 5 to 6 minutes. Add the scallions, garlic, and ginger and cook, stirring constantly, until the aromatics are tender, fragrant, and starting to brown, about 2 minutes. Add the bok choy leaves and 1/8 tsp. salt. Using tongs, toss until the leaves are completely wilted and integrated with the stems, 1 to 2 more minutes.\r\n\r\nRemove the pan from the heat, and using a heatproof spatula, stir the sauce and quickly mix it with the vegetables in the pan. As soon as the sauce thickens and has coated most of the vegetables (a few seconds), transfer to a platter and serve immediately."
         }
     }, 
     {
@@ -621,6 +684,20 @@
             "item": 40, 
             "amount": "2", 
             "measurement": null, 
+            "optional": false, 
+            "order": 1
+        }
+    }, 
+    {
+        "pk": 70, 
+        "model": "recipes.ingredient", 
+        "fields": {
+            "multiplier": 1, 
+            "recipe": 7, 
+            "preparation": "about 1 large, 2 medium, or 5 to 6 baby", 
+            "item": 51, 
+            "amount": "1-1/4", 
+            "measurement": 3, 
             "optional": false, 
             "order": 1
         }
@@ -724,6 +801,20 @@
         }
     }, 
     {
+        "pk": 71, 
+        "model": "recipes.ingredient", 
+        "fields": {
+            "multiplier": 1, 
+            "recipe": 7, 
+            "preparation": "(preferably Lee Kum Kee brand)", 
+            "item": 52, 
+            "amount": "2", 
+            "measurement": 1, 
+            "optional": false, 
+            "order": 2
+        }
+    }, 
+    {
         "pk": 3, 
         "model": "recipes.ingredient", 
         "fields": {
@@ -817,6 +908,20 @@
             "item": 42, 
             "amount": "1/4", 
             "measurement": 4, 
+            "optional": false, 
+            "order": 3
+        }
+    }, 
+    {
+        "pk": 72, 
+        "model": "recipes.ingredient", 
+        "fields": {
+            "multiplier": 1, 
+            "recipe": 7, 
+            "preparation": "", 
+            "item": 53, 
+            "amount": "2", 
+            "measurement": 1, 
             "optional": false, 
             "order": 3
         }
@@ -920,6 +1025,20 @@
         }
     }, 
     {
+        "pk": 73, 
+        "model": "recipes.ingredient", 
+        "fields": {
+            "multiplier": 1, 
+            "recipe": 7, 
+            "preparation": "", 
+            "item": 54, 
+            "amount": "1", 
+            "measurement": 2, 
+            "optional": false, 
+            "order": 4
+        }
+    }, 
+    {
         "pk": 7, 
         "model": "recipes.ingredient", 
         "fields": {
@@ -1013,6 +1132,20 @@
             "item": 43, 
             "amount": "1", 
             "measurement": 1, 
+            "optional": false, 
+            "order": 5
+        }
+    }, 
+    {
+        "pk": 74, 
+        "model": "recipes.ingredient", 
+        "fields": {
+            "multiplier": 1, 
+            "recipe": 7, 
+            "preparation": "", 
+            "item": 55, 
+            "amount": "1/4", 
+            "measurement": 2, 
             "optional": false, 
             "order": 5
         }
@@ -1116,6 +1249,20 @@
         }
     }, 
     {
+        "pk": 75, 
+        "model": "recipes.ingredient", 
+        "fields": {
+            "multiplier": 1, 
+            "recipe": 7, 
+            "preparation": "", 
+            "item": 56, 
+            "amount": "2", 
+            "measurement": 1, 
+            "optional": false, 
+            "order": 6
+        }
+    }, 
+    {
         "pk": 5, 
         "model": "recipes.ingredient", 
         "fields": {
@@ -1186,6 +1333,20 @@
         }
     }, 
     {
+        "pk": 76, 
+        "model": "recipes.ingredient", 
+        "fields": {
+            "multiplier": 1, 
+            "recipe": 7, 
+            "preparation": "", 
+            "item": 6, 
+            "amount": "1", 
+            "measurement": null, 
+            "optional": false, 
+            "order": 7
+        }
+    }, 
+    {
         "pk": 15, 
         "model": "recipes.ingredient", 
         "fields": {
@@ -1242,6 +1403,20 @@
         }
     }, 
     {
+        "pk": 77, 
+        "model": "recipes.ingredient", 
+        "fields": {
+            "multiplier": 1, 
+            "recipe": 7, 
+            "preparation": "(8 to 10 medium), white and light-green parts only, cut into 3-inch lengths and halved lengthwise if thick", 
+            "item": 57, 
+            "amount": "4", 
+            "measurement": 6, 
+            "optional": false, 
+            "order": 8
+        }
+    }, 
+    {
         "pk": 16, 
         "model": "recipes.ingredient", 
         "fields": {
@@ -1278,6 +1453,20 @@
             "preparation": "", 
             "item": 6, 
             "amount": "1", 
+            "measurement": null, 
+            "optional": false, 
+            "order": 9
+        }
+    }, 
+    {
+        "pk": 78, 
+        "model": "recipes.ingredient", 
+        "fields": {
+            "multiplier": 1, 
+            "recipe": 7, 
+            "preparation": "large, peeled and thinly sliced", 
+            "item": 8, 
+            "amount": "2", 
             "measurement": null, 
             "optional": false, 
             "order": 9
@@ -1321,6 +1510,20 @@
             "item": 5, 
             "amount": "1", 
             "measurement": 1, 
+            "optional": false, 
+            "order": 10
+        }
+    }, 
+    {
+        "pk": 79, 
+        "model": "recipes.ingredient", 
+        "fields": {
+            "multiplier": 1, 
+            "recipe": 7, 
+            "preparation": "square, peeled and cut into thin matchsticks", 
+            "item": 58, 
+            "amount": "1/2", 
+            "measurement": 7, 
             "optional": false, 
             "order": 10
         }
