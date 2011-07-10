@@ -4,60 +4,54 @@
 
 {% block content %}
 <h1>{{ recipe.name }}</h1>
-<br/>
 
-<p>Source: 
-{% if recipe.source_url %}
-<a href="{{recipe.source_url}}">{{ recipe.source }}</a>
-{% else %}
-{{ recipe.source }}
-{% endif %}</p>
-<br/>
-
-<p>Time to prepare: {{ recipe.time }}</p>
-<br/>
-
-<p>
-Serves: {{ recipe.serves }}
-{% if recipe.leftovers %}(Makes leftovers){% endif %}
-</p>
-<br/>
-
-<p>Equipment:</p>
-<br/>
-{{ recipe.equipment|linebreaksbr }}
-<br/>
-<br/>
-
-<p>Ingredients:</p>
-<table>
-    <tr>
-        <th></th>
-        <th>Amount</th>
-        <th>Ingredient</th>
-    </tr>
-    {% for ingredient in recipe.ingredient_set.all %}
-    <tr>
-        <td>{% if ingredient.multiplier > 1 %}{{ ingredient.multiplier }}x{% endif%}</td>
-        <td>{{ ingredient.amount }} {{ ingredient.measurement }}</td>
-        <td>{{ ingredient.item }} {{ ingredient.preparation }}</td>
-    </tr>
-    {% endfor %}
-</table>
-<br/>
-
-<p>Instructions:</p>
-<br/>
-{{ recipe.instructions|linebreaksbr }}
-<br/>
-<br/>
-
-{% if recipe.health %}
-<p>Health</p>
-<br/>
-{{ recipe.health|linebreaksbr }}
-<br/>
-<br/>
-{% endif %}
+    <p>
+        Source: 
+        {% if recipe.source_url %}
+        <a href="{{recipe.source_url}}">{{ recipe.source }}</a>
+        {% else %}
+        {{ recipe.source }}
+        {% endif %}
+    </p>
+    
+    <p>Time to prepare: {{ recipe.time }}</p>
+    
+    <p>
+    Serves: {{ recipe.serves }}
+    {% if recipe.leftovers %}(Makes leftovers){% endif %}
+    </p>
+    
+    <h2>Equipment:</h2>
+    <p>
+    {{ recipe.equipment|linebreaksbr }}
+    </p>
+    
+    <h2>Ingredients:</h2>
+    <table>
+        <tr>
+            <th></th>
+            <th>Amount</th>
+            <th>Ingredient</th>
+        </tr>
+        {% for ingredient in recipe.ingredient_set.all %}
+        <tr>
+            <td>{% if ingredient.multiplier > 1 %}{{ ingredient.multiplier }}x{% endif%}</td>
+            <td>{{ ingredient.amount }} {{ ingredient.measurement }}</td>
+            <td>{{ ingredient.item }} {{ ingredient.preparation }}</td>
+        </tr>
+        {% endfor %}
+    </table>
+    
+    <h2>Instructions:</h2>
+    <p>
+    {{ recipe.instructions|safe|linebreaksbr }}
+    </p>
+    
+    {% if recipe.health %}
+    <h2>Health:</h2>
+    <p>
+    {{ recipe.health|linebreaksbr }}
+    </p>
+    {% endif %}
 
 {% endblock %}
