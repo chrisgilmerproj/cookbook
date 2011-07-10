@@ -5,15 +5,26 @@
 {% block content %}
 
     <h1>Random Recipe List</h1>
-    <br/>
 
+    <h2>Menu</h2>
     <ul>
     {% for recipe in recipe_list %}
     <li><a href="{% url recipe_detail recipe.slug %}">{{ recipe }}</a></li>
     {% endfor %}
     </ul>
-    <br/>
 
-    {% include "ingredient_table.html" %}
-
+    <h2>Shopping List</h2>
+    <ul>
+        {% for ingredient in ingredient_list %}
+        <li>{{ingredient.0}}
+            {% if ingredient.1 %}
+            <ul>
+                {% for amount in ingredient.1 %}
+                <li>{{amount}}</li>
+                {% endfor %}
+            </ul>
+            {% endif %}
+        </li>
+        {% endfor %}
+    </ul>
 {% endblock %}

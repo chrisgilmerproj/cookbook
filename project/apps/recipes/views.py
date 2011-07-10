@@ -42,9 +42,20 @@ def recipe_random(request):
         count = recipes.count()
     recipe_list = random.sample(recipes, count)
 
-    items = [(ing.item.name,ing) for ing in Ingredient.objects.filter(recipe__in=recipes)]
-    items.sort()
-    ingredient_list = [x[1] for x in items]
+    ingredient_dict = {}
+    for ing in Ingredient.objects.filter(recipe__in=recipe_list):
+        short = ing.short()
+        if short:
+            item = ing.item.name
+            if item in ingredient_dict:
+                ingredient_dict[item].append(ing.short())
+            else:
+                ingredient_dict[item] = [ing.short()]
+   
+    ingredient_list = []
+    for item, amounts in ingredient_dict.iteritems():
+        ingredient_list.append((item, amounts))
+    ingredient_list.sort()
 
     template_name = 'recipe_random.html'
     context = {

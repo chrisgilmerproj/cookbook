@@ -80,3 +80,19 @@ class Ingredient(models.Model):
         if self.optional:
             name += "*"
         return name
+
+    def short(self):
+        name = ""
+        if self.multiplier > 1:
+            name += "%sx " % self.multiplier
+        if self.amount != '1':
+            name += "%s " % (self.amount)
+        if self.amount == '1' and self.measurement:
+            name += "%s " % (self.amount)
+        if self.measurement:
+            name += "%s " % (self.measurement)
+        name += "%s" % (self.preparation)
+        if self.optional:
+            name += "*"
+        return name
+
