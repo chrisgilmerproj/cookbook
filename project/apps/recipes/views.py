@@ -37,10 +37,10 @@ def recipe_detail(request, slug):
 def recipe_random(request):
     """ View to see list of recipes """
 
+    count = int(request.GET.get('count',6))
     tag = request.GET.get('tag',None)
 
     recipes = Recipe.objects.filter(tags__icontains=tag)
-    count = 6
     if recipes.count() < count:
         count = recipes.count()
     recipe_list = random.sample(recipes, count)
