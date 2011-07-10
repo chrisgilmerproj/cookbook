@@ -49,13 +49,6 @@
         }
     }, 
     {
-        "pk": 55, 
-        "model": "recipes.item", 
-        "fields": {
-            "name": "asian sesame oil"
-        }
-    }, 
-    {
         "pk": 48, 
         "model": "recipes.item", 
         "fields": {
@@ -84,13 +77,6 @@
         }
     }, 
     {
-        "pk": 42, 
-        "model": "recipes.item", 
-        "fields": {
-            "name": "canola oil"
-        }
-    }, 
-    {
         "pk": 39, 
         "model": "recipes.item", 
         "fields": {
@@ -109,6 +95,13 @@
         "model": "recipes.item", 
         "fields": {
             "name": "chickpeas (garbonzo beans)"
+        }
+    }, 
+    {
+        "pk": 34, 
+        "model": "recipes.item", 
+        "fields": {
+            "name": "chives"
         }
     }, 
     {
@@ -144,6 +137,13 @@
         "model": "recipes.item", 
         "fields": {
             "name": "cucumber, english"
+        }
+    }, 
+    {
+        "pk": 9, 
+        "model": "recipes.item", 
+        "fields": {
+            "name": "cumin, ground"
         }
     }, 
     {
@@ -189,20 +189,6 @@
         }
     }, 
     {
-        "pk": 34, 
-        "model": "recipes.item", 
-        "fields": {
-            "name": "fresh chives"
-        }
-    }, 
-    {
-        "pk": 2, 
-        "model": "recipes.item", 
-        "fields": {
-            "name": "fresh thyme"
-        }
-    }, 
-    {
         "pk": 8, 
         "model": "recipes.item", 
         "fields": {
@@ -214,13 +200,6 @@
         "model": "recipes.item", 
         "fields": {
             "name": "ginger"
-        }
-    }, 
-    {
-        "pk": 9, 
-        "model": "recipes.item", 
-        "fields": {
-            "name": "ground cumin"
         }
     }, 
     {
@@ -294,10 +273,38 @@
         }
     }, 
     {
+        "pk": 55, 
+        "model": "recipes.item", 
+        "fields": {
+            "name": "oil, asian sesame"
+        }
+    }, 
+    {
+        "pk": 42, 
+        "model": "recipes.item", 
+        "fields": {
+            "name": "oil, canola"
+        }
+    }, 
+    {
         "pk": 5, 
         "model": "recipes.item", 
         "fields": {
-            "name": "olive oil, extra-virgin"
+            "name": "oil, extra-virgin olive"
+        }
+    }, 
+    {
+        "pk": 56, 
+        "model": "recipes.item", 
+        "fields": {
+            "name": "oil, peanut"
+        }
+    }, 
+    {
+        "pk": 38, 
+        "model": "recipes.item", 
+        "fields": {
+            "name": "oil, walnut"
         }
     }, 
     {
@@ -319,13 +326,6 @@
         "model": "recipes.item", 
         "fields": {
             "name": "parsley, flat-leaf"
-        }
-    }, 
-    {
-        "pk": 56, 
-        "model": "recipes.item", 
-        "fields": {
-            "name": "peanut oil"
         }
     }, 
     {
@@ -420,6 +420,13 @@
         }
     }, 
     {
+        "pk": 2, 
+        "model": "recipes.item", 
+        "fields": {
+            "name": "thyme"
+        }
+    }, 
+    {
         "pk": 46, 
         "model": "recipes.item", 
         "fields": {
@@ -441,13 +448,6 @@
         }
     }, 
     {
-        "pk": 38, 
-        "model": "recipes.item", 
-        "fields": {
-            "name": "walnut oil"
-        }
-    }, 
-    {
         "pk": 37, 
         "model": "recipes.item", 
         "fields": {
@@ -461,7 +461,7 @@
             "name": "Cedar-Planked Lemon-Pepper Salmon", 
             "equipment": "2 15x7-inch untreated cedar planks", 
             "leftovers": true, 
-            "tags": "fish, grilled", 
+            "tags": "fish, grilled, dinner", 
             "serves": 4, 
             "source_url": "http://www.finecooking.com/recipes/cedar-planked-lemon-pepper-salmon-horseradish-sauce.aspx", 
             "source": "Fine Cooking 111, Page 57", 
@@ -478,7 +478,7 @@
             "name": "Classic Vichyssoise", 
             "equipment": "", 
             "leftovers": false, 
-            "tags": "dinner, soup", 
+            "tags": "dinner, soup, shopping", 
             "serves": 1, 
             "source_url": "http://www.finecooking.com/recipes/classic-vichyssoise.aspx", 
             "source": "Fine Cooking 099, page 27", 
@@ -495,7 +495,7 @@
             "name": "Grilled Chickpea Burgers with Creamy Lemon Tahini Sauce", 
             "equipment": "", 
             "leftovers": false, 
-            "tags": "dinner, grilled", 
+            "tags": "dinner, grilled, shopping", 
             "serves": 1, 
             "source_url": "http://www.finecooking.com/recipes/grilled-chickpea-burgers-creamy-lemon-tahini-sauce.aspx", 
             "source": "Fine Cooking 111, Page 42", 
@@ -512,7 +512,7 @@
             "name": "Grilled Pita Bread", 
             "equipment": "", 
             "leftovers": false, 
-            "tags": "grilled, bread", 
+            "tags": "grilled, bread, shopping", 
             "serves": 1, 
             "source_url": "http://www.finecooking.com/recipes/grilled-pita-bread.aspx", 
             "source": "Fine Cooking 105, page 54", 
@@ -529,7 +529,7 @@
             "name": "Grilled Radicchio and Romaine Salad", 
             "equipment": "", 
             "leftovers": false, 
-            "tags": "grilled, salad, dinner", 
+            "tags": "grilled, salad, dinner, shopping", 
             "serves": 1, 
             "source_url": "http://www.finecooking.com/recipes/grilled-radicchio-romaine-salad.aspx", 
             "source": "Fine Cooking 111, page 21", 
@@ -546,7 +546,7 @@
             "name": "Haricots Verts with Toasted Walnuts and Ch\u00e8vre", 
             "equipment": "", 
             "leftovers": false, 
-            "tags": "salad, dinner", 
+            "tags": "salad, dinner, shopping", 
             "serves": 1, 
             "source_url": "http://www.finecooking.com/recipes/haricots-verts-toasted-walnuts-chevre.aspx", 
             "source": "Fine Cooking 099, page 43", 
@@ -563,7 +563,7 @@
             "name": "Margarita-Marinated Grilled Skirt Steak with Tomatillo Salsa", 
             "equipment": "", 
             "leftovers": false, 
-            "tags": "dinner, grilled", 
+            "tags": "dinner, grilled, shopping", 
             "serves": 1, 
             "source_url": "http://www.finecooking.com/recipes/margarita-marinated-skirt-steak-grilled-tomatillo-salsa.aspx", 
             "source": "Fine Cooking 100, page 16", 
@@ -580,7 +580,7 @@
             "name": "Stir-Fried Bok Choy with Garlic, Ginger, and Scallions", 
             "equipment": "", 
             "leftovers": false, 
-            "tags": "stir-fry, dinner", 
+            "tags": "stir-fry, dinner, shopping", 
             "serves": 1, 
             "source_url": "http://www.finecooking.com/recipes/stir-fried-bok-choy-garlic-ginger-scallions.aspx", 
             "source": "Fine Cooking 105, page 63", 
