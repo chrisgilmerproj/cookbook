@@ -27,5 +27,6 @@ class RecipeAdmin(admin.ModelAdmin):
     )
     inlines = [IngredientInline,]
     list_display = ['name','time','serves','leftovers','source','tags',]
+    list_editable = ['time','serves','leftovers','tags']
 
 admin.site.register(Recipe, RecipeAdmin)

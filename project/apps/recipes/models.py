@@ -28,14 +28,14 @@ class Item(models.Model):
 class Recipe(models.Model):
     name = models.CharField(max_length=200, help_text="Name of the recipe")
     slug = models.SlugField(editable=False, unique=True)
-    time = models.CharField(max_length=200, blank=True, help_text="Preparation Time")
+    time = models.CharField(max_length=10, blank=True, help_text="Preparation Time")
     serves = models.PositiveIntegerField(default=1, blank=True, help_text="Number of servings")
     leftovers = models.BooleanField(default=False, help_text="Makes Leftovers")
     source = models.CharField(max_length=200, blank=True, help_text="Source, please include page number")
     source_url = models.URLField(verify_exists=True, blank=True)
-    equipment = models.TextField(blank=True, help_text="Equipment for Preparation")
     instructions = models.TextField(help_text="Instructions for Preparation")
     health = models.TextField(blank=True, help_text="Related health facts")
+    equipment = models.TextField(blank=True, help_text="Equipment for Preparation")
 
     tags = TagField()
 
@@ -60,7 +60,7 @@ class Ingredient(models.Model):
     amount = models.CharField(max_length=20, default="1")
     measurement = models.ForeignKey(Measurement, blank=True, null=True)
     item = models.ForeignKey(Item)
-    preparation = models.CharField(max_length=200, blank=True, help_text="Short prep instruction")
+    preparation = models.CharField(max_length=50, blank=True, help_text="Short prep instruction")
     optional = models.BooleanField(default=False)
 
     class Meta:
