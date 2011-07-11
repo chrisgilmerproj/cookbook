@@ -10,7 +10,18 @@ class VineyardAdmin(admin.ModelAdmin):
 admin.site.register(Vineyard, VineyardAdmin)
 
 class WineAdmin(admin.ModelAdmin):
-    list_display = ['name','variety','appelation','year','vineyard','alcohol','sulfites','inventory']
+    fieldsets = (
+        (None, {'fields': [
+            'variety','vineyard','name','year','appelation','inventory',
+        ]}),
+        ('Composition', {'fields': [
+            'composition','aroma','bouquet',
+        ]}),
+        ('Chemistry', {'fields': [
+            'alcohol','sulfites','ta','ph','aging','skin_contact',
+        ]}),
+    )
+    list_display = ['name','variety','appelation','year','vineyard','inventory']
     list_editable = ['inventory',]
     search_fields = ['name','appelation','year',]
 
