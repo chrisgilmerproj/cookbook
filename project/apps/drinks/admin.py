@@ -10,7 +10,8 @@ class VineyardAdmin(admin.ModelAdmin):
 admin.site.register(Vineyard, VineyardAdmin)
 
 class WineAdmin(admin.ModelAdmin):
-    list_display = ['name','variety','year','vineyard','alcohol','inventory']
+    list_display = ['name','variety','year','vineyard','alcohol','sulfites','inventory']
+    list_editable = ['inventory',]
 
 admin.site.register(Wine, WineAdmin)
 

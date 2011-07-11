@@ -52,406 +52,464 @@
         "pk": 48, 
         "model": "recipes.item", 
         "fields": {
-            "name": "avocado"
+            "name": "avocado", 
+            "alt_name": ""
         }
     }, 
     {
         "pk": 47, 
         "model": "recipes.item", 
         "fields": {
-            "name": "bell pepper, yellow"
+            "name": "bell pepper, yellow", 
+            "alt_name": ""
         }
     }, 
     {
         "pk": 51, 
         "model": "recipes.item", 
         "fields": {
-            "name": "bok choy"
+            "name": "bok choy", 
+            "alt_name": ""
         }
     }, 
     {
         "pk": 53, 
         "model": "recipes.item", 
         "fields": {
-            "name": "broth, chicken low-salt"
+            "name": "broth, chicken low-salt", 
+            "alt_name": ""
         }
     }, 
     {
         "pk": 39, 
         "model": "recipes.item", 
         "fields": {
-            "name": "cheese, goat"
+            "name": "cheese, goat", 
+            "alt_name": ""
         }
     }, 
     {
         "pk": 25, 
         "model": "recipes.item", 
         "fields": {
-            "name": "cheese, parmigiano-reggiano"
+            "name": "cheese, parmigiano-reggiano", 
+            "alt_name": ""
         }
     }, 
     {
         "pk": 11, 
         "model": "recipes.item", 
         "fields": {
-            "name": "chickpeas (garbonzo beans)"
+            "name": "chickpeas", 
+            "alt_name": "garbonzo beans"
         }
     }, 
     {
         "pk": 34, 
         "model": "recipes.item", 
         "fields": {
-            "name": "chives"
+            "name": "chives", 
+            "alt_name": ""
         }
     }, 
     {
         "pk": 16, 
         "model": "recipes.item", 
         "fields": {
-            "name": "cilantro"
+            "name": "cilantro", 
+            "alt_name": ""
         }
     }, 
     {
         "pk": 43, 
         "model": "recipes.item", 
         "fields": {
-            "name": "cointreau"
+            "name": "cointreau", 
+            "alt_name": ""
         }
     }, 
     {
         "pk": 54, 
         "model": "recipes.item", 
         "fields": {
-            "name": "cornstarch"
+            "name": "cornstarch", 
+            "alt_name": ""
         }
     }, 
     {
         "pk": 33, 
         "model": "recipes.item", 
         "fields": {
-            "name": "cream, heavy"
+            "name": "cream, heavy", 
+            "alt_name": ""
         }
     }, 
     {
         "pk": 17, 
         "model": "recipes.item", 
         "fields": {
-            "name": "cucumber, english"
+            "name": "cucumber, english", 
+            "alt_name": ""
         }
     }, 
     {
         "pk": 9, 
         "model": "recipes.item", 
         "fields": {
-            "name": "cumin, ground"
+            "name": "cumin, ground", 
+            "alt_name": ""
         }
     }, 
     {
         "pk": 27, 
         "model": "recipes.item", 
         "fields": {
-            "name": "dry yeast, active"
+            "name": "dry yeast, active", 
+            "alt_name": ""
         }
     }, 
     {
         "pk": 14, 
         "model": "recipes.item", 
         "fields": {
-            "name": "egg"
+            "name": "egg", 
+            "alt_name": ""
         }
     }, 
     {
         "pk": 22, 
         "model": "recipes.item", 
         "fields": {
-            "name": "fish, anchovy fillet"
+            "name": "fish, anchovy fillet", 
+            "alt_name": ""
         }
     }, 
     {
         "pk": 4, 
         "model": "recipes.item", 
         "fields": {
-            "name": "fish, salmon fillet"
+            "name": "fish, salmon fillet", 
+            "alt_name": ""
         }
     }, 
     {
         "pk": 28, 
         "model": "recipes.item", 
         "fields": {
-            "name": "flour, unbleached all-purpose"
+            "name": "flour, unbleached all-purpose", 
+            "alt_name": ""
         }
     }, 
     {
         "pk": 29, 
         "model": "recipes.item", 
         "fields": {
-            "name": "flour, whole-wheat"
+            "name": "flour, whole-wheat", 
+            "alt_name": ""
         }
     }, 
     {
         "pk": 8, 
         "model": "recipes.item", 
         "fields": {
-            "name": "garlic clove"
+            "name": "garlic clove", 
+            "alt_name": ""
         }
     }, 
     {
         "pk": 58, 
         "model": "recipes.item", 
         "fields": {
-            "name": "ginger"
+            "name": "ginger", 
+            "alt_name": ""
         }
     }, 
     {
         "pk": 35, 
         "model": "recipes.item", 
         "fields": {
-            "name": "haricots verts"
+            "name": "haricots verts", 
+            "alt_name": "green beans"
         }
     }, 
     {
         "pk": 19, 
         "model": "recipes.item", 
         "fields": {
-            "name": "harissa"
+            "name": "harissa", 
+            "alt_name": ""
         }
     }, 
     {
         "pk": 26, 
         "model": "recipes.item", 
         "fields": {
-            "name": "honey"
+            "name": "honey", 
+            "alt_name": ""
         }
     }, 
     {
         "pk": 50, 
         "model": "recipes.item", 
         "fields": {
-            "name": "jalapeno"
+            "name": "jalapeno", 
+            "alt_name": ""
         }
     }, 
     {
         "pk": 30, 
         "model": "recipes.item", 
         "fields": {
-            "name": "leeks"
+            "name": "leeks", 
+            "alt_name": ""
         }
     }, 
     {
         "pk": 13, 
         "model": "recipes.item", 
         "fields": {
-            "name": "lemon juice"
+            "name": "lemon juice", 
+            "alt_name": ""
         }
     }, 
     {
         "pk": 1, 
         "model": "recipes.item", 
         "fields": {
-            "name": "lemon zest"
+            "name": "lemon zest", 
+            "alt_name": ""
         }
     }, 
     {
         "pk": 40, 
         "model": "recipes.item", 
         "fields": {
-            "name": "lime"
+            "name": "lime", 
+            "alt_name": ""
         }
     }, 
     {
         "pk": 32, 
         "model": "recipes.item", 
         "fields": {
-            "name": "milk, whole"
+            "name": "milk, whole", 
+            "alt_name": ""
         }
     }, 
     {
         "pk": 24, 
         "model": "recipes.item", 
         "fields": {
-            "name": "mustard, dijon"
+            "name": "mustard, dijon", 
+            "alt_name": ""
         }
     }, 
     {
         "pk": 55, 
         "model": "recipes.item", 
         "fields": {
-            "name": "oil, asian sesame"
+            "name": "oil, asian sesame", 
+            "alt_name": ""
         }
     }, 
     {
         "pk": 42, 
         "model": "recipes.item", 
         "fields": {
-            "name": "oil, canola"
+            "name": "oil, canola", 
+            "alt_name": ""
         }
     }, 
     {
         "pk": 5, 
         "model": "recipes.item", 
         "fields": {
-            "name": "oil, extra-virgin olive"
+            "name": "oil, extra-virgin olive", 
+            "alt_name": ""
         }
     }, 
     {
         "pk": 56, 
         "model": "recipes.item", 
         "fields": {
-            "name": "oil, peanut"
+            "name": "oil, peanut", 
+            "alt_name": ""
         }
     }, 
     {
         "pk": 38, 
         "model": "recipes.item", 
         "fields": {
-            "name": "oil, walnut"
+            "name": "oil, walnut", 
+            "alt_name": ""
         }
     }, 
     {
         "pk": 49, 
         "model": "recipes.item", 
         "fields": {
-            "name": "onion, red"
+            "name": "onion, red", 
+            "alt_name": ""
         }
     }, 
     {
         "pk": 52, 
         "model": "recipes.item", 
         "fields": {
-            "name": "oyster sauce"
+            "name": "oyster sauce", 
+            "alt_name": ""
         }
     }, 
     {
         "pk": 15, 
         "model": "recipes.item", 
         "fields": {
-            "name": "parsley, flat-leaf"
+            "name": "parsley, flat-leaf", 
+            "alt_name": ""
         }
     }, 
     {
         "pk": 7, 
         "model": "recipes.item", 
         "fields": {
-            "name": "pepper, black"
+            "name": "pepper, black", 
+            "alt_name": ""
         }
     }, 
     {
         "pk": 10, 
         "model": "recipes.item", 
         "fields": {
-            "name": "pita"
+            "name": "pita", 
+            "alt_name": ""
         }
     }, 
     {
         "pk": 31, 
         "model": "recipes.item", 
         "fields": {
-            "name": "potatoes, yukon gold"
+            "name": "potatoes, yukon gold", 
+            "alt_name": ""
         }
     }, 
     {
         "pk": 21, 
         "model": "recipes.item", 
         "fields": {
-            "name": "radicchio"
+            "name": "radicchio", 
+            "alt_name": ""
         }
     }, 
     {
         "pk": 44, 
         "model": "recipes.item", 
         "fields": {
-            "name": "red pepper flakes"
+            "name": "red pepper flakes", 
+            "alt_name": ""
         }
     }, 
     {
         "pk": 20, 
         "model": "recipes.item", 
         "fields": {
-            "name": "romaine lettuce"
+            "name": "romaine lettuce", 
+            "alt_name": ""
         }
     }, 
     {
         "pk": 6, 
         "model": "recipes.item", 
         "fields": {
-            "name": "salt, kosher"
+            "name": "salt, kosher", 
+            "alt_name": ""
         }
     }, 
     {
         "pk": 57, 
         "model": "recipes.item", 
         "fields": {
-            "name": "scallions"
+            "name": "scallions", 
+            "alt_name": ""
         }
     }, 
     {
         "pk": 36, 
         "model": "recipes.item", 
         "fields": {
-            "name": "shallots"
+            "name": "shallots", 
+            "alt_name": ""
         }
     }, 
     {
         "pk": 45, 
         "model": "recipes.item", 
         "fields": {
-            "name": "skirt steak"
+            "name": "skirt steak", 
+            "alt_name": ""
         }
     }, 
     {
         "pk": 3, 
         "model": "recipes.item", 
         "fields": {
-            "name": "sugar, granulated"
+            "name": "sugar, granulated", 
+            "alt_name": ""
         }
     }, 
     {
         "pk": 12, 
         "model": "recipes.item", 
         "fields": {
-            "name": "tahini"
+            "name": "tahini", 
+            "alt_name": ""
         }
     }, 
     {
         "pk": 41, 
         "model": "recipes.item", 
         "fields": {
-            "name": "tequila"
+            "name": "tequila", 
+            "alt_name": ""
         }
     }, 
     {
         "pk": 2, 
         "model": "recipes.item", 
         "fields": {
-            "name": "thyme"
+            "name": "thyme", 
+            "alt_name": ""
         }
     }, 
     {
         "pk": 46, 
         "model": "recipes.item", 
         "fields": {
-            "name": "tomatillos"
+            "name": "tomatillos", 
+            "alt_name": ""
         }
     }, 
     {
         "pk": 18, 
         "model": "recipes.item", 
         "fields": {
-            "name": "tomato"
+            "name": "tomato", 
+            "alt_name": ""
         }
     }, 
     {
         "pk": 23, 
         "model": "recipes.item", 
         "fields": {
-            "name": "vinegar, balsamic"
+            "name": "vinegar, balsamic", 
+            "alt_name": ""
         }
     }, 
     {
         "pk": 37, 
         "model": "recipes.item", 
         "fields": {
-            "name": "walnuts"
+            "name": "walnuts", 
+            "alt_name": ""
         }
     }, 
     {

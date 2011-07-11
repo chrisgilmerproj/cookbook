@@ -1,0 +1,62 @@
+[
+    {
+        "pk": 2, 
+        "model": "drinks.variety", 
+        "fields": {
+            "name": "merlot"
+        }
+    }, 
+    {
+        "pk": 1, 
+        "model": "drinks.variety", 
+        "fields": {
+            "name": "shiraz"
+        }
+    }, 
+    {
+        "pk": 1, 
+        "model": "drinks.vineyard", 
+        "fields": {
+            "url": "http://www.ravenswoodwinery.com/", 
+            "region": "California", 
+            "name": "Ravens Wood", 
+            "slug": ""
+        }
+    }, 
+    {
+        "pk": 2, 
+        "model": "drinks.vineyard", 
+        "fields": {
+            "url": "http://www.smokingloon.com/", 
+            "region": "California", 
+            "name": "Smoking Loon Wine Co.", 
+            "slug": "smoking-loon-wine-co"
+        }
+    }, 
+    {
+        "pk": 2, 
+        "model": "drinks.wine", 
+        "fields": {
+            "alcohol": 13.9, 
+            "variety": 2, 
+            "vineyard": 2, 
+            "inventory": 1, 
+            "year": 2009, 
+            "sulfites": false, 
+            "name": "Smoking Loon"
+        }
+    }, 
+    {
+        "pk": 1, 
+        "model": "drinks.wine", 
+        "fields": {
+            "alcohol": null, 
+            "variety": 1, 
+            "vineyard": 1, 
+            "inventory": 1, 
+            "year": 2008, 
+            "sulfites": true, 
+            "name": "Vintners Blend"
+        }
+    }
+]
