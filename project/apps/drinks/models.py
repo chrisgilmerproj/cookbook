@@ -34,7 +34,7 @@ class Wine(models.Model):
     name = models.CharField(max_length=200, help_text="Name of the wine")
     year = models.PositiveIntegerField(help_text="Year on label")
     appelation = models.CharField(max_length=200, blank=True, help_text="Region of wine")
-    # Notes
+    notes = models.TextField(blank=True, help_text="Helpful notes")
     inventory = models.IntegerField(default=0, help_text="Number in inventory")
     
     composition = models.TextField(blank=True, help_text="Composition of blended wines")

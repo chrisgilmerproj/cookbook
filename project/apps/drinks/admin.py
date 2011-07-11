@@ -12,7 +12,7 @@ admin.site.register(Vineyard, VineyardAdmin)
 class WineAdmin(admin.ModelAdmin):
     fieldsets = (
         (None, {'fields': [
-            'variety','vineyard','name','year','appelation','inventory',
+            'variety','vineyard','name','year','appelation','notes','inventory',
         ]}),
         ('Composition', {'fields': [
             'composition','aroma','bouquet',

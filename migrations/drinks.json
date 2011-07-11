@@ -21,6 +21,13 @@
         }
     }, 
     {
+        "pk": 4, 
+        "model": "drinks.variety", 
+        "fields": {
+            "name": "Zinfandel"
+        }
+    }, 
+    {
         "pk": 1, 
         "model": "drinks.vineyard", 
         "fields": {
@@ -48,6 +55,37 @@
         }
     }, 
     {
+        "pk": 4, 
+        "model": "drinks.vineyard", 
+        "fields": {
+            "url": "http://zynthesis.com/", 
+            "name": "Zynthesis", 
+            "slug": "zynthesis"
+        }
+    }, 
+    {
+        "pk": 4, 
+        "model": "drinks.wine", 
+        "fields": {
+            "aging": "", 
+            "name": "Old Vine", 
+            "variety": 4, 
+            "bouquet": "", 
+            "ta": null, 
+            "notes": "", 
+            "aroma": "", 
+            "vineyard": 4, 
+            "skin_contact": "", 
+            "inventory": 1, 
+            "year": 2010, 
+            "ph": null, 
+            "appelation": "Lodi", 
+            "sulfites": false, 
+            "composition": "", 
+            "alcohol": 14.800000000000001
+        }
+    }, 
+    {
         "pk": 3, 
         "model": "drinks.wine", 
         "fields": {
@@ -56,6 +94,7 @@
             "variety": 3, 
             "bouquet": "", 
             "ta": null, 
+            "notes": "Friends brought this wine to celebrate being awesome.", 
             "aroma": "", 
             "vineyard": 3, 
             "skin_contact": "", 
@@ -64,7 +103,7 @@
             "ph": null, 
             "appelation": "Paso Robles", 
             "sulfites": false, 
-            "composition": "100% Cab.\r\n\r\nNot far from the ", 
+            "composition": "100% Cab.", 
             "alcohol": null
         }
     }, 
@@ -77,6 +116,7 @@
             "variety": 2, 
             "bouquet": "", 
             "ta": null, 
+            "notes": "", 
             "aroma": "", 
             "vineyard": 2, 
             "skin_contact": "", 
@@ -98,6 +138,7 @@
             "variety": 1, 
             "bouquet": "", 
             "ta": null, 
+            "notes": "", 
             "aroma": "", 
             "vineyard": 1, 
             "skin_contact": "", 
@@ -108,6 +149,26 @@
             "sulfites": true, 
             "composition": "", 
             "alcohol": null
+        }
+    }, 
+    {
+        "pk": 1, 
+        "model": "drinks.winepairing", 
+        "fields": {
+            "date": "2011-07-10", 
+            "notes": "This was good, but probably better if I was eating steak.", 
+            "recipe": 2, 
+            "wine": 3
+        }
+    }, 
+    {
+        "pk": 2, 
+        "model": "drinks.winepairing", 
+        "fields": {
+            "date": "2011-07-10", 
+            "notes": "This was fantastic.  I don't think it was a match so much as it was just brilliant to drink.", 
+            "recipe": 3, 
+            "wine": 4
         }
     }
 ]
