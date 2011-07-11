@@ -1,5 +1,12 @@
 [
     {
+        "pk": 3, 
+        "model": "drinks.variety", 
+        "fields": {
+            "name": "Cabernet Sauvignon"
+        }
+    }, 
+    {
         "pk": 2, 
         "model": "drinks.variety", 
         "fields": {
@@ -23,6 +30,15 @@
         }
     }, 
     {
+        "pk": 3, 
+        "model": "drinks.vineyard", 
+        "fields": {
+            "url": "http://www.roberthallwinery.com/", 
+            "name": "Robert Hall", 
+            "slug": "robert-hall"
+        }
+    }, 
+    {
         "pk": 2, 
         "model": "drinks.vineyard", 
         "fields": {
@@ -32,20 +48,43 @@
         }
     }, 
     {
+        "pk": 3, 
+        "model": "drinks.wine", 
+        "fields": {
+            "aging": "", 
+            "name": "Robert Hall Cabernet Sauvignon", 
+            "variety": 3, 
+            "bouquet": "", 
+            "ta": null, 
+            "aroma": "", 
+            "vineyard": 3, 
+            "skin_contact": "", 
+            "inventory": 0, 
+            "year": 2008, 
+            "ph": null, 
+            "appelation": "Paso Robles", 
+            "sulfites": false, 
+            "composition": "100% Cab.\r\n\r\nNot far from the ", 
+            "alcohol": null
+        }
+    }, 
+    {
         "pk": 2, 
         "model": "drinks.wine", 
         "fields": {
+            "aging": "", 
             "name": "Smoking Loon", 
             "variety": 2, 
             "bouquet": "", 
             "ta": null, 
-            "sulfites": false, 
+            "aroma": "", 
             "vineyard": 2, 
+            "skin_contact": "", 
             "inventory": 1, 
             "year": 2009, 
-            "aroma": "", 
             "ph": null, 
             "appelation": "California", 
+            "sulfites": false, 
             "composition": "", 
             "alcohol": 13.9
         }
@@ -54,17 +93,19 @@
         "pk": 1, 
         "model": "drinks.wine", 
         "fields": {
+            "aging": "", 
             "name": "Vintners Blend", 
             "variety": 1, 
             "bouquet": "", 
             "ta": null, 
-            "sulfites": true, 
+            "aroma": "", 
             "vineyard": 1, 
+            "skin_contact": "", 
             "inventory": 1, 
             "year": 2008, 
-            "aroma": "", 
             "ph": null, 
             "appelation": "California", 
+            "sulfites": true, 
             "composition": "", 
             "alcohol": null
         }

@@ -34,16 +34,18 @@ class Wine(models.Model):
     name = models.CharField(max_length=200, help_text="Name of the wine")
     year = models.PositiveIntegerField(help_text="Year on label")
     appelation = models.CharField(max_length=200, blank=True, help_text="Region of wine")
+    # Notes
     inventory = models.IntegerField(default=0, help_text="Number in inventory")
     
     composition = models.TextField(blank=True, help_text="Composition of blended wines")
+    # Dropdown for blends?
     aroma = models.CharField(max_length=200, blank=True, help_text="Primary and secondary aromas")
     bouquet = models.CharField(max_length=200, blank=True, help_text="Tertiary aromas")
 
     alcohol = models.FloatField(blank=True, null=True, help_text="Alcohol by Volume")
     sulfites = models.BooleanField(default=False, help_text="Contains Sulfites")
-    ta = models.FloatField(blank=True, null=True, help_text="titratable acidity")
-    ph = models.FloatField(blank=True, null=True, help_text="pH")
+    ta = models.FloatField("TA", blank=True, null=True, help_text="titratable acidity")
+    ph = models.FloatField("pH", blank=True, null=True, help_text="pH")
     aging = models.CharField(max_length=200, blank=True, help_text="Notes on aging")
     skin_contact = models.CharField(max_length=200, blank=True, help_text="Duration of skin contact")
 
