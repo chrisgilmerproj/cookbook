@@ -28,7 +28,7 @@
     
     <h2>Ingredients:</h2>
     {% with recipe.ingredient_set.all as ingredient_list %}
-    {% include "ingredient_table.html" %}
+    {% include "recipes/ingredient_table.html" %}
     {% endwith %}
     
     <h2>Instructions:</h2>

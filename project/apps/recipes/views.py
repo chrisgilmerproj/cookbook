@@ -10,7 +10,7 @@ def recipe_list(request):
     """ View to see list of recipes """
     recipe_list = Recipe.objects.all()
 
-    template_name = 'recipe_list.html'
+    template_name = 'recipes/recipe_list.html'
     context = {
         'recipe_list': recipe_list,
     }
@@ -24,7 +24,7 @@ def recipe_detail(request, slug):
     """ View to see a recipe """
     recipe_detail = Recipe.objects.get(slug=slug)
 
-    template_name = 'recipe_detail.html'
+    template_name = 'recipes/recipe_detail.html'
     context = {
         'recipe': recipe_detail,
     }
@@ -62,7 +62,7 @@ def recipe_random(request):
         ingredient_list.append((item, amounts))
     ingredient_list.sort()
 
-    template_name = 'recipe_random.html'
+    template_name = 'recipes/recipe_random.html'
     context = {
         'ingredient_list': ingredient_list,
         'recipe_list': recipe_list,

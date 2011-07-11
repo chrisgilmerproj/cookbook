@@ -45,6 +45,7 @@ INSTALLED_APPS = (
     'tagging',
 
     'initial_data', # load django-admin commands, initial fixtures, ..
+    'drinks',
     'recipes', 
 )
 
