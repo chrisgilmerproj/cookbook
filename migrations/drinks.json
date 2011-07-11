@@ -18,7 +18,6 @@
         "model": "drinks.vineyard", 
         "fields": {
             "url": "http://www.ravenswoodwinery.com/", 
-            "region": "California", 
             "name": "Ravens Wood", 
             "slug": ""
         }
@@ -28,7 +27,6 @@
         "model": "drinks.vineyard", 
         "fields": {
             "url": "http://www.smokingloon.com/", 
-            "region": "California", 
             "name": "Smoking Loon Wine Co.", 
             "slug": "smoking-loon-wine-co"
         }
@@ -37,26 +35,38 @@
         "pk": 2, 
         "model": "drinks.wine", 
         "fields": {
-            "alcohol": 13.9, 
+            "name": "Smoking Loon", 
             "variety": 2, 
+            "bouquet": "", 
+            "ta": null, 
+            "sulfites": false, 
             "vineyard": 2, 
             "inventory": 1, 
             "year": 2009, 
-            "sulfites": false, 
-            "name": "Smoking Loon"
+            "aroma": "", 
+            "ph": null, 
+            "appelation": "California", 
+            "composition": "", 
+            "alcohol": 13.9
         }
     }, 
     {
         "pk": 1, 
         "model": "drinks.wine", 
         "fields": {
-            "alcohol": null, 
+            "name": "Vintners Blend", 
             "variety": 1, 
+            "bouquet": "", 
+            "ta": null, 
+            "sulfites": true, 
             "vineyard": 1, 
             "inventory": 1, 
             "year": 2008, 
-            "sulfites": true, 
-            "name": "Vintners Blend"
+            "aroma": "", 
+            "ph": null, 
+            "appelation": "California", 
+            "composition": "", 
+            "alcohol": null
         }
     }
 ]

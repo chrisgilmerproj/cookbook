@@ -20,7 +20,6 @@ class Vineyard(models.Model):
     name = models.CharField(max_length=200, help_text="Vineyard name")
     slug = models.SlugField(editable=False, unique=True)
     url = models.URLField(verify_exists=True, help_text="Vineyard website")
-    region = models.CharField(max_length=200, blank=True, help_text="Regional name")
 
     class Meta:
         ordering = ['name',]
@@ -38,8 +37,18 @@ class Wine(models.Model):
 
     name = models.CharField(max_length=200, help_text="Name of the wine")
     year = models.PositiveIntegerField()
+    appelation = models.CharField(max_length=200, blank=True, help_text="Region of wine")
+    
+    composition = models.TextField(blank=True)
     alcohol = models.FloatField(blank=True, null=True, help_text="Alcohol by Volume")
     sulfites = models.BooleanField(default=False, help_text="Contains Sulfites")
+    
+    ta = models.FloatField(blank=True, null=True, help_text="titratable acidity")
+    ph = models.FloatField(blank=True, null=True, help_text="pH")
+
+    aroma = models.CharField(max_length=200, blank=True, help_text="Primary and secondary aromas")
+    bouquet = models.CharField(max_length=200, blank=True, help_text="Tertiary aromas")
+
     inventory = models.IntegerField(default=0, help_text="Number in inventory")
 
     class Meta:
@@ -52,6 +61,7 @@ class Pairing(models.Model):
     recipe = models.ForeignKey(Recipe)
     wine = models.ForeignKey(Wine)
     date  = models.DateField()
+    notes = models.TextField(help_text="Notes about the pairing")
 
     class Meta:
         ordering = ['-date',]
