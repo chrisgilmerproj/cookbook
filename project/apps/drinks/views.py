@@ -2,7 +2,7 @@
 from django.shortcuts import render_to_response
 from django.template import RequestContext
 
-from drinks.models import Wine, Pairing
+from drinks.models import Wine, WinePairing
 
 def wine_list(request):
 

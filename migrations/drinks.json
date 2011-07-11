@@ -3,14 +3,14 @@
         "pk": 2, 
         "model": "drinks.variety", 
         "fields": {
-            "name": "merlot"
+            "name": "Merlot"
         }
     }, 
     {
         "pk": 1, 
         "model": "drinks.variety", 
         "fields": {
-            "name": "shiraz"
+            "name": "Shiraz"
         }
     }, 
     {

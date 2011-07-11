@@ -12,10 +12,6 @@ class Variety(models.Model):
     def __unicode__(self):
         return self.name
 
-    def save(self, *args, **kwargs):
-        self.name = self.name.lower()
-        super(Variety, self).save(*args, **kwargs)
-
 class Vineyard(models.Model):
     name = models.CharField(max_length=200, help_text="Vineyard name")
     slug = models.SlugField(editable=False, unique=True)
@@ -57,7 +53,7 @@ class Wine(models.Model):
     def __unicode__(self):
         return "%s %s %s, %s" % (self.name, self.variety, self.year, self.vineyard)
 
-class Pairing(models.Model):
+class WinePairing(models.Model):
     recipe = models.ForeignKey(Recipe)
     wine = models.ForeignKey(Wine)
     date  = models.DateField()
