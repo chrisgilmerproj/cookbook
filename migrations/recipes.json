@@ -84,7 +84,7 @@
         "pk": 39, 
         "model": "recipes.item", 
         "fields": {
-            "name": "cheese, goat", 
+            "name": "cheese, chevre goat", 
             "alt_name": ""
         }
     }, 
@@ -537,11 +537,11 @@
             "equipment": "", 
             "leftovers": false, 
             "tags": "dinner, soup, shopping", 
-            "serves": 1, 
+            "serves": 4, 
             "source_url": "http://www.finecooking.com/recipes/classic-vichyssoise.aspx", 
             "source": "Fine Cooking 099, page 27", 
             "health": "nutrition information (per serving):\r\nCalories (kcal): 300; Fat (g): 18; Fat Calories (kcal): 160; Saturated Fat (g): 11; Protein (g): 7; Monounsaturated Fat (g): 5; Carbohydrates (g): 30; Polyunsaturated Fat (g): 1; Sodium (mg): 210; Cholesterol (mg): 65; Fiber (g): 2;", 
-            "time": "", 
+            "time": "1.5 hour", 
             "slug": "classic-vichyssoise", 
             "instructions": "Combine the leeks, potatoes, milk, and 2 cups water in a 4-quart pot.\r\n\r\nBring to a simmer over medium-high heat. Add 1-1/2 tsp. salt, reduce the heat to medium low, and simmer until a potato slice falls apart when you poke it with a fork, about 20 minutes. Remove from the heat, stir in the cream, and let cool briefly.\r\n\r\nPur\u00e9e the soup, preferably using a regular blender and working in batches, filling it only half way each time.\r\n\r\nStrain the pur\u00e9ed soup through a fine sieve. Let cool to room temperature, stirring occasionally (stirring prevents a skin from forming), and then refrigerate until thoroughly chilled.\r\n\r\nBefore serving, thin the soup with water if necessary\u2014it should be the consistency of heavy cream. Season to taste with salt. Serve cold in chilled bowls, garnished with the chives."
         }
@@ -554,11 +554,11 @@
             "equipment": "", 
             "leftovers": false, 
             "tags": "dinner, grilled, shopping", 
-            "serves": 1, 
+            "serves": 4, 
             "source_url": "http://www.finecooking.com/recipes/grilled-chickpea-burgers-creamy-lemon-tahini-sauce.aspx", 
             "source": "Fine Cooking 111, Page 42", 
             "health": "nutrition information (per serving):\r\nCalories (kcal): 540; Fat (g): 23; Fat Calories (kcal): 210; Saturated Fat (g): 3; Protein (g): 20; Monounsaturated Fat (g): 12; Carbohydrates (g): 67; Polyunsaturated Fat (g): 6; Sodium (mg): 660; Cholesterol (mg): 30; Fiber (g): 13;", 
-            "time": "", 
+            "time": "45 minutes", 
             "slug": "grilled-chickpea-burgers-with-creamy-lemon-tahini-sauce", 
             "instructions": "Prepare a high gas or charcoal grill fire.\r\n\r\nHeat the oil, garlic, and cumin in a small saucepan over medium-low heat until the garlic is soft but not brown, about 3 minutes. Set aside off the heat.\r\n\r\nTear one of the pitas in half and toast in a toaster until golden-brown and crisp. In a food processor, grind the pita into fine crumbs; transfer the crumbs to a small bowl and measure them\u2014you\u2019ll need 1/2 cup. If necessary, toast and grind a second pita.\r\n\r\nIn the food processor, pur\u00e9e 1 can of the chickpeas with the oil mixture, 2 Tbs. of the tahini, 1 Tbs. of the lemon juice, the egg, and 3/4 tsp. salt until smooth. Add the remaining chickpeas and the pita crumbs, parsley, and cilantro; pulse until the chickpeas are coarsely chopped and the mixture is well blended.\r\n\r\nPut the remaining 3 Tbs. tahini in a small bowl and gradually whisk in 2 Tbs. water and the remaining 3 Tbs. lemon juice (the tahini will thicken at first and then smooth out).\r\nShape the chickpea mixture into 6 patties, each about 3/4 inch thick. Brush both sides of each with oil. Grill, covered, until heated through and nicely marked on both sides, 2 to 3 minutes per side.\r\n\r\nCut the remaining 3 pitas in half and heat briefly on the grill. Layer the burgers in the pitas with the sliced cucumber and tomatoes, drizzle with the tahini sauce and harissa (if using), and serve.\r\n\r\n<b>Serving suggestions</b>\r\n\r\nServe these delicious burgers with Tabbouleh."
         }
@@ -575,7 +575,7 @@
             "source_url": "http://www.finecooking.com/recipes/grilled-pita-bread.aspx", 
             "source": "Fine Cooking 105, page 54", 
             "health": "nutrition information (per serving):\r\nCalories (kcal): 220; Fat (g): 3.5; Fat Calories (kcal): 30; Saturated Fat (g): 0; Protein (g): 6; Monounsaturated Fat (g): 2; Carbohydrates (g): 41; Polyunsaturated Fat (g): 0.5; Sodium (mg): 60; Cholesterol (mg): 0; Fiber (g): 2;", 
-            "time": "", 
+            "time": "1 hour", 
             "slug": "grilled-pita-bread", 
             "instructions": "In a small bowl, mix the honey with 1/2 cup lukewarm water and stir in the yeast. Let sit until the yeast has started to foam, 2 to 3 minutes.\r\n\r\nPut both flours and the salt in the bowl of a stand mixer fitted with the dough hook. With the mixer running on low speed, mix in the olive oil until fully incorporated, about 2 minutes. Add the yeast mixture and 1 cup lukewarm water and mix until fully incorporated, 2 to 3 minutes more. Raise the speed to medium and knead the dough until it comes away from the sides of the bowl and forms a ball that is smooth, elastic, and no longer sticky, 4 to 5 minutes. If the dough seems too wet, add more all-purpose flour, 1 tsp. at a time. Raise the speed to medium high and continue to knead for 5 minutes. Oil a medium bowl, transfer the dough to the bowl, and roll to coat it with the oil. Cover with plastic wrap and let rise in a warm place until doubled in size, about 1 hour.\r\n\r\nTurn the dough onto a lightly floured surface and knead two or three times to remove any air bubbles. Form into a log and divide it evenly into 10 pieces. Form each piece into a ball and then roll into disks about 1/4 inch thick and 6 inches in diameter. Lightly oil two rimmed baking sheets. Put the disks on the baking sheets, cover with plastic wrap, and let rise until just doubled in thickness, 30 to 45 minutes.\r\n\r\nPrepare a medium-high gas grill fire, leaving one burner off, or prepare a charcoal fire with a hot zone and cool zone by pushing the coals to one side of the grill.\r\n\r\nBrush a cast-iron griddle or skillet lightly with olive oil and put it on the grill over the cool zone. When very hot, cook the pitas in batches on the griddle until starting to brown, 2 to 3 minutes. Flip and continue cooking until lightly golden on the bottom and the pitas are cooked through, 2 to 3 minutes more. Cool on a wire rack. If stuffing, cut the pitas in half and carefully separate the layers with a fork."
         }
@@ -588,11 +588,11 @@
             "equipment": "", 
             "leftovers": false, 
             "tags": "grilled, salad, dinner, shopping", 
-            "serves": 1, 
+            "serves": 4, 
             "source_url": "http://www.finecooking.com/recipes/grilled-radicchio-romaine-salad.aspx", 
             "source": "Fine Cooking 111, page 21", 
             "health": "nutrition information (per serving):\r\nCalories (kcal): 310; Fat (g): 27; Fat Calories (kcal): 240; Saturated Fat (g): 5; Protein (g): 10; Monounsaturated Fat (g): 18; Carbohydrates (g): 8; Polyunsaturated Fat (g): 3; Sodium (mg): 750; Cholesterol (mg): 20; Fiber (g): 3;", 
-            "time": "", 
+            "time": "20 minutes", 
             "slug": "grilled-radicchio-and-romaine-salad", 
             "instructions": "Prepare a medium-high gas or charcoal grill fire, or heat a grill pan over medium-high heat until hot.\r\n\r\nCut the romaine and radicchio in half through the root ends. Rinse the leaves and dry well.\r\n\r\nPour the oil into a large baking dish. Dip the lettuces cut side down in the oil, swirling to coat well; then place them cut side down on the grill. Grill, covered, without turning, until charred and wilted in spots, about 4 minutes. Transfer to a cutting board. Remove the cores and chop the lettuce into bite-size pieces.\r\n\r\nPress the garlic and the anchovy through a garlic press into a large salad bowl (or mince by hand). Whisk in the vinegar, mustard, and 1/2 tsp. each salt and pepper. Transfer the lettuces and any juice from the cutting board to the salad bowl. Add the cheese and toss well."
         }
@@ -605,11 +605,11 @@
             "equipment": "", 
             "leftovers": false, 
             "tags": "salad, dinner, shopping", 
-            "serves": 1, 
+            "serves": 4, 
             "source_url": "http://www.finecooking.com/recipes/haricots-verts-toasted-walnuts-chevre.aspx", 
             "source": "Fine Cooking 099, page 43", 
             "health": "nutrition information (per serving):\r\nCalories (kcal): 180; Fat (g): 15; Fat Calories (kcal): 130; Saturated Fat (g): 3.5; Protein (g): 6; Monounsaturated Fat (g): 4.5; Carbohydrates (g): 8; Polyunsaturated Fat (g): 7; Sodium (mg): 340; Cholesterol (mg): 5; Fiber (g): 3;", 
-            "time": "", 
+            "time": "20 minutes", 
             "slug": "haricots-verts-with-toasted-walnuts-and-chevre", 
             "instructions": "Bring a medium pot of well-salted water to a boil. Cook the beans in the water until tender, 2 to 3 minutes. Drain and run under cold water to cool. Drain well.\r\n\r\nHeat the olive oil in a 12-inch skillet over medium-high heat. Add the shallots and cook, stirring, until they begin to brown, about 30 seconds. Stir in the walnuts. Add the walnut oil and the beans and cook, stirring to heat through, 2 to 3 minutes. Season to taste with salt and pepper and transfer the beans to a serving dish. Sprinkle the goat cheese over the top and serve."
         }
@@ -780,7 +780,7 @@
         "fields": {
             "multiplier": 4, 
             "recipe": 2, 
-            "preparation": "medium", 
+            "preparation": "medium, sliced", 
             "item": 8, 
             "amount": "1", 
             "measurement": null, 
@@ -824,8 +824,8 @@
             "recipe": 8, 
             "preparation": "large, peeled and sliced 1/8 inch thick (about 4 cups)", 
             "item": 31, 
-            "amount": "4", 
-            "measurement": 4, 
+            "amount": "1", 
+            "measurement": null, 
             "optional": false, 
             "order": 2
         }

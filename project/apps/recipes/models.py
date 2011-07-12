@@ -15,6 +15,7 @@ class Measurement(models.Model):
 class Item(models.Model):
     name = models.CharField(max_length=200, help_text="Name of the ingredient")
     alt_name = models.CharField(max_length=200, blank=True, help_text="Alternate ingredient name")
+    #preparation instructions
 
     class Meta:
         ordering = ['name',]
@@ -66,6 +67,7 @@ class Ingredient(models.Model):
     measurement = models.ForeignKey(Measurement, blank=True, null=True)
     item = models.ForeignKey(Item)
     preparation = models.CharField(max_length=200, blank=True, help_text="Short prep instruction")
+    #makes X cups
     optional = models.BooleanField(default=False)
 
     class Meta:
