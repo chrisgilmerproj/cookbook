@@ -712,8 +712,8 @@
             "recipe": 8, 
             "preparation": "medium size, trimmed and washed as directed opposite, sliced 1/8 inch thick (about 3 cups)", 
             "item": 30, 
-            "amount": "4", 
-            "measurement": 4, 
+            "amount": "1", 
+            "measurement": null, 
             "optional": false, 
             "order": 1
         }

@@ -1,6 +1,5 @@
     <table>
     <tr>
-        <th></th>
         <th>Amount</th>
         <th>Ingredient</th>
     </tr>
@@ -8,8 +7,6 @@
     <tr>
         <td>
             {% if ingredient.multiplier > 1 %}{{ ingredient.multiplier }}x{% endif%}
-        </td>
-        <td>
             {% if ingredient.amount != '1' or ingredient.amount and ingredient.measurement %}{{ ingredient.amount }}{% endif %}
             {% if ingredient.measurement %}{{ ingredient.measurement }}{% endif %}
         </td>

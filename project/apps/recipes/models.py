@@ -67,7 +67,6 @@ class Ingredient(models.Model):
     measurement = models.ForeignKey(Measurement, blank=True, null=True)
     item = models.ForeignKey(Item)
     preparation = models.CharField(max_length=200, blank=True, help_text="Short prep instruction")
-    #makes X cups
     optional = models.BooleanField(default=False)
 
     class Meta:
