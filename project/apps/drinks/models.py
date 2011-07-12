@@ -28,6 +28,14 @@ class Vineyard(models.Model):
         super(Vineyard, self).save(*args, **kwargs)
 
 class Wine(models.Model):
+    RATING_CHOICES = (
+        (1, "1 - hated it"),
+        (2, "2 - didn't like it"),
+        (3, "3 - liked it"),
+        (4, "4 - really liked it"),
+        (5, "5 - loved it"),
+        )
+
     variety = models.ForeignKey(Variety)
     vineyard = models.ForeignKey(Vineyard)
 
@@ -36,11 +44,11 @@ class Wine(models.Model):
     appelation = models.CharField(max_length=200, blank=True, help_text="Region of wine")
     notes = models.TextField(blank=True, help_text="Helpful notes")
     inventory = models.IntegerField(default=0, help_text="Number in inventory")
+    rating = models.IntegerField(default=3, choices=RATING_CHOICES, help_text="Overall impression")
     
     composition = models.TextField(blank=True, help_text="Composition of blended wines")
-    # Dropdown for blends?
-    aroma = models.CharField(max_length=200, blank=True, help_text="Primary and secondary aromas")
-    bouquet = models.CharField(max_length=200, blank=True, help_text="Tertiary aromas")
+    aroma = models.TextField(blank=True, help_text="Primary and secondary aromas")
+    bouquet = models.TextField(blank=True, help_text="Tertiary aromas")
 
     alcohol = models.FloatField(blank=True, null=True, help_text="Alcohol by Volume")
     sulfites = models.BooleanField(default=False, help_text="Contains Sulfites")

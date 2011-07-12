@@ -5,10 +5,23 @@
 {% block content %}
 
     <h1>Wine List</h1>
-    <ul>
-    {% for wine in wine_list %}
-    <li>{{ wine }}</li>
-    {% endfor %}
-    </ul>
+    <table>
+        <tr>
+            <th>Name</th>
+            <th>Variety</th>
+            <th>Appelation</th>
+            <th>Year</th>
+            <th>Vineyard</th>
+        </tr>
+        {% for wine in wine_list %}
+        <tr>
+            <td>{{ wine.name }}</td>
+            <td>{{ wine.variety }}</td>
+            <td>{{ wine.appelation }}</td>
+            <td>{{ wine.year }}</td>
+            <td>{{ wine.vineyard }}</td>
+        </tr>
+        {% endfor %}
+    </table>
 
 {% endblock %}
