@@ -28,6 +28,15 @@
         }
     }, 
     {
+        "pk": 5, 
+        "model": "drinks.vineyard", 
+        "fields": {
+            "url": "http://www.crookedpathcellars.com/", 
+            "name": "Crooked Path Cellars", 
+            "slug": "crooked-path-cellars"
+        }
+    }, 
+    {
         "pk": 1, 
         "model": "drinks.vineyard", 
         "fields": {
@@ -61,6 +70,29 @@
             "url": "http://zynthesis.com/", 
             "name": "Zynthesis", 
             "slug": "zynthesis"
+        }
+    }, 
+    {
+        "pk": 5, 
+        "model": "drinks.wine", 
+        "fields": {
+            "rating": 3, 
+            "name": "Crooked Path Zinfandel", 
+            "variety": 4, 
+            "bouquet": "", 
+            "ta": null, 
+            "notes": "", 
+            "aroma": "", 
+            "vineyard": 5, 
+            "aging": "", 
+            "skin_contact": "", 
+            "inventory": 2, 
+            "year": 2009, 
+            "ph": null, 
+            "appelation": "Paso Robles", 
+            "sulfites": false, 
+            "composition": "", 
+            "alcohol": null
         }
     }, 
     {

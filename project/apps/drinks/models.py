@@ -44,7 +44,7 @@ class Wine(models.Model):
     appelation = models.CharField(max_length=200, blank=True, help_text="Region of wine")
     notes = models.TextField(blank=True, help_text="Helpful notes")
     inventory = models.IntegerField(default=0, help_text="Number in inventory")
-    rating = models.IntegerField(default=3, choices=RATING_CHOICES, help_text="Overall impression")
+    rating = models.IntegerField(choices=RATING_CHOICES, blank=True, null=True, help_text="Overall impression")
     
     composition = models.TextField(blank=True, help_text="Composition of blended wines")
     aroma = models.TextField(blank=True, help_text="Primary and secondary aromas")
@@ -58,7 +58,7 @@ class Wine(models.Model):
     skin_contact = models.CharField(max_length=200, blank=True, help_text="Duration of skin contact")
 
     class Meta:
-        ordering = ['name',]
+        ordering = ['variety','name',]
 
     def __unicode__(self):
         return "%s %s %s, %s" % (self.name, self.variety, self.year, self.vineyard)
